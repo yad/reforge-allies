@@ -1,0 +1,90 @@
+{
+  "id": 12,
+  "name": "Zandalari Troll",
+  "client_file": "Zandalari Troll",
+  "faction": "Horde",
+  "male_display": 141225,
+  "female_display": 141226,
+  "classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "char_sections": 2832,
+  "dbc_rows": {
+    "ChrRaces": 1,
+    "CharBaseInfo": 30,
+    "CharStartOutfit": 22,
+    "SkillLineAbility": 2,
+    "SkillRaceClassInfo": 7,
+    "CharSections": 2832,
+    "CharacterFacialHairStyles": 315,
+    "CharHairGeosets": 22,
+    "CreatureDisplayInfo": 2,
+    "CreatureModelData": 2
+  },
+  "display_ids": [
+    141225,
+    141226
+  ],
+  "extra_display_ids": [],
+  "model_ids": [
+    112882,
+    112883
+  ],
+  "models": [
+    "character/zandalaritroll/female",
+    "character/zandalaritroll/male"
+  ],
+  "files_copied": 799,
+  "files_missing": [
+    "character/zandalaritroll/male/zandalaritrollmalenakedtorsoskin00_00.blp",
+    "character/zandalaritroll/male/zandalaritrollmalenakedtorsoskin00_01.blp",
+    "character/zandalaritroll/male/zandalaritrollmalenakedtorsoskin00_02.blp",
+    "character/zandalaritroll/male/zandalaritrollmalenakedtorsoskin00_03.blp",
+    "character/zandalaritroll/male/zandalaritrollmalenakedtorsoskin00_04.blp",
+    "character/zandalaritroll/male/zandalaritrollmalenakedtorsoskin00_05.blp",
+    "character/zandalaritroll/male/zandalaritrollmalenakedtorsoskin00_06.blp"
+  ],
+  "appearance_textures": [],
+  "skin_geoset_fixes": [],
+  "placeholder_textures_cleared": 0,
+  "portraits": {
+    "male": {
+      "path": "Portraits/male.png",
+      "source": "Charactercreate-races_ZandalariTroll-male.png"
+    },
+    "female": {
+      "path": "Portraits/female.png",
+      "source": "Charactercreate-races_ZandalariTroll-female.png"
+    }
+  },
+  "portraits_missing": []
+}

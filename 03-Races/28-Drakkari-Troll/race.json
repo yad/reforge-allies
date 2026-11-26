@@ -1,0 +1,75 @@
+{
+  "id": 28,
+  "name": "Drakkari Troll",
+  "client_file": "DrakkariTroll",
+  "faction": "Horde",
+  "male_display": 977388,
+  "female_display": 977389,
+  "classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "char_sections": 291,
+  "dbc_rows": {
+    "ChrRaces": 1,
+    "CharBaseInfo": 30,
+    "CharStartOutfit": 22,
+    "SkillRaceClassInfo": 7,
+    "CharSections": 291,
+    "CharacterFacialHairStyles": 17,
+    "CharHairGeosets": 21,
+    "CreatureDisplayInfo": 2,
+    "CreatureModelData": 2
+  },
+  "display_ids": [
+    977388,
+    977389
+  ],
+  "extra_display_ids": [],
+  "model_ids": [
+    901249,
+    901250
+  ],
+  "models": [
+    "Character/DrakkariTroll/FeMale",
+    "Character/DrakkariTroll/Male"
+  ],
+  "files_copied": 613,
+  "files_missing": [],
+  "appearance_textures": [],
+  "skin_geoset_fixes": [],
+  "placeholder_textures_cleared": 0,
+  "portraits": {},
+  "portraits_missing": [
+    "male",
+    "female"
+  ]
+}

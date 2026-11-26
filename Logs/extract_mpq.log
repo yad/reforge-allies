@@ -1,0 +1,265 @@
+
+=== extract_mpq.py ===
+
+===== profil coa : C:\Jeux\Conquest of Azeroth\Data =====
+177 archives (0 ignorées), patchs : D:\repo\reforge-allies\01-CoA-Patchs, fusion : D:\repo\reforge-allies\01-CoA
+[3/177] 03_expansion : 11871 extraits
+[4/177] 04_lichking : 16179 extraits
+[6/177] 06_patch-2 : 11811 extraits
+[7/177] 07_patch-3 : 2994 extraits
+[2/177] 02_common-2 : 43083 extraits
+[8/177] 08_enUS_locale-enUS : 11054 extraits
+[10/177] 10_enUS_expansion-locale-enUS : 420 extraits
+[11/177] 11_enUS_lichking-locale-enUS : 55 extraits
+[9/177] 09_enUS_speech-enUS : 5106 extraits
+[12/177] 12_enUS_expansion-speech-enUS : 1502 extraits
+[13/177] 13_enUS_lichking-speech-enUS : 1846 extraits
+[15/177] 15_enUS_patch-enUS-2 : 2337 extraits
+[16/177] 16_enUS_patch-enUS-3 : 949 extraits
+[17/177] 17_patch-4 : 0 extraits
+[18/177] 18_patch-5 : 0 extraits
+[14/177] 14_enUS_patch-enUS : 5398 extraits
+[20/177] 20_patch-B : 1596 extraits
+[21/177] 21_patch-C : 0 extraits
+[22/177] 22_patch-CA : 1897 extraits
+[23/177] 23_patch-CB : 3043 extraits
+[5/177] 05_patch : 41160 extraits
+[24/177] 24_patch-CC : 1453 extraits
+[26/177] 26_patch-CE : 580 extraits
+[19/177] 19_patch-A : 8406 extraits
+[25/177] 25_patch-CD : 3833 extraits
+[27/177] 27_patch-CF : 2009 extraits
+[29/177] 29_patch-CH : 1054 extraits
+[31/177] 31_patch-CI : 479 extraits
+[32/177] 32_patch-CJ : 67 extraits
+[28/177] 28_patch-CG : 1817 extraits
+[33/177] 33_patch-CK : 757 extraits
+[34/177] 34_patch-CL : 790 extraits
+[1/177] 01_common : 83670 extraits
+[36/177] 36_patch-CN : 1826 extraits
+[37/177] 37_patch-CO : 678 extraits
+[39/177] 39_patch-CQ : 42 extraits
+[35/177] 35_patch-CM : 2417 extraits
+[38/177] 38_patch-CP : 1145 extraits
+[40/177] 40_patch-CR : 1438 extraits
+[43/177] 43_patch-CU : 87 extraits
+[42/177] 42_patch-CT : 1456 extraits
+[44/177] 44_patch-CV : 1415 extraits
+[46/177] 46_patch-CX : 135 extraits
+[47/177] 47_patch-CY : 195 extraits
+[48/177] 48_patch-CZ : 314 extraits
+[49/177] 49_patch-CZZ : 0 extraits
+[45/177] 45_patch-CW : 1757 extraits
+[41/177] 41_patch-CS : 3891 extraits
+[51/177] 51_patch-M : 288 extraits
+[52/177] 52_patch-N : 28813 extraits
+[54/177] 54_patch-P : 0 extraits
+[30/177] 30_patch-CHA : 49120 extraits
+[53/177] 53_patch-O : 46625 extraits
+[57/177] 57_patch-retail-001 : 10168 extraits
+[55/177] 55_patch-Q : 32564 extraits
+[56/177] 56_patch-R : 15182 extraits
+[58/177] 58_patch-retail-002 : 8207 extraits
+[61/177] 61_patch-retail-005 : 212 extraits
+[62/177] 62_patch-S : 48 extraits
+[59/177] 59_patch-retail-003 : 10412 extraits
+[63/177] 63_patch-T : 320 extraits
+[65/177] 65_patch-TM : 412 extraits
+[60/177] 60_patch-retail-004 : 8048 extraits
+[50/177] 50_patch-I : 76062 extraits
+[66/177] 66_patch-TW : 11249 extraits
+[69/177] 69_patch-W : 0 extraits
+[68/177] 68_patch-V : 6763 extraits
+[71/177] 71_patch-WB : 0 extraits
+[67/177] 67_patch-U : 38202 extraits
+[70/177] 70_patch-WA : 8690 extraits
+[74/177] 74_patch-WC : 0 extraits
+[72/177] 72_patch-WB1 : 3395 extraits
+[75/177] 75_patch-WC1 : 9637 extraits
+[73/177] 73_patch-WB2 : 3565 extraits
+[78/177] 78_patch-X : 376 extraits
+[79/177] 79_patch-Z : 4527 extraits
+[77/177] 77_patch-WC3 : 9131 extraits
+[80/177] 80_patch-ZE1 : 6492 extraits
+[81/177] 81_patch-ZE2 : 5299 extraits
+[83/177] 83_patch-ZE5 : 821 extraits
+[84/177] 84_patch-ZE6 : 952 extraits
+[85/177] 85_patch-ZE7 : 35 extraits
+[86/177] 86_patch-ZE8 : 70 extraits
+[87/177] 87_patch-ZE9 : 555 extraits
+[88/177] 88_patch-ZEA : 1225 extraits
+[82/177] 82_patch-ZE3 : 4260 extraits
+[90/177] 90_patch-ZEZV : 505 extraits
+[91/177] 91_patch-ZEZW : 27 extraits
+[92/177] 92_patch-ZEZX : 22 extraits
+[93/177] 93_patch-ZEZY : 29 extraits
+[94/177] 94_patch-ZEZZ : 68 extraits
+[95/177] 95_patch-ZEZZA : 16 extraits
+[89/177] 89_patch-ZES : 1172 extraits
+[96/177] 96_patch-ZEZZB : 17 extraits
+[97/177] 97_patch-ZEZZC : 16 extraits
+[98/177] 98_patch-ZEZZD : 32 extraits
+[100/177] 100_patch-ZEZZF : 35 extraits
+[99/177] 99_patch-ZEZZE : 89 extraits
+[101/177] 101_patch-ZEZZG : 121 extraits
+[102/177] 102_patch-ZEZZH : 96 extraits
+[103/177] 103_patch-ZEZZI : 101 extraits
+[105/177] 105_patch-ZH : 301 extraits
+[104/177] 104_patch-ZG : 1008 extraits
+[106/177] 106_patch-ZHA : 1080 extraits
+[108/177] 108_patch-ZJ : 1559 extraits
+[109/177] 109_patch-ZK : 4 extraits
+[107/177] 107_patch-ZHM : 3086 extraits
+[111/177] 111_patch-ZVU : 1506 extraits
+[110/177] 110_patch-ZM : 1815 extraits
+[112/177] 112_patch-ZZE : 72 extraits
+[114/177] 114_patch-ZZS : 941 extraits
+[115/177] 115_patch-ZZT : 7 extraits
+[116/177] 116_patch-ZZU : 3 extraits
+[117/177] 117_patch-ZZV : 6 extraits
+[118/177] 118_patch-ZZW : 257 extraits
+[119/177] 119_patch-ZZX : 5 extraits
+[113/177] 113_patch-ZZR : 1148 extraits
+[121/177] 121_patch-ZZZA : 6 extraits
+[122/177] 122_patch-ZZZC : 27 extraits
+[123/177] 123_patch-ZZZD : 7 extraits
+[120/177] 120_patch-ZZZ : 2282 extraits
+[125/177] 125_patch-ZZZF : 29 extraits
+[126/177] 126_patch-ZZZG : 4 extraits
+[127/177] 127_patch-ZZZT : 7 extraits
+[128/177] 128_patch-ZZZW : 11 extraits
+[129/177] 129_patch-ZZZZ : 5 extraits
+[124/177] 124_patch-ZZZE : 745 extraits
+[130/177] 130_patch-ZZZZA : 20 extraits
+[132/177] 132_patch-ZZZZC : 1 extraits
+[133/177] 133_patch-ZZZZD : 1 extraits
+[134/177] 134_patch-ZZZZE : 1 extraits
+[135/177] 135_patch-ZZZZS : 1733 extraits
+[131/177] 131_patch-ZZZZB : 226 extraits
+[136/177] 136_patch-ZZZZT : 5986 extraits
+[138/177] 138_patch-ZZZZX : 6 extraits
+[139/177] 139_patch-ZZZZY : 1 extraits
+[140/177] 140_patch-ZZZZZ : 656 extraits
+[141/177] 141_patch-ZZZZZA : 76 extraits
+[142/177] 142_patch-ZZZZZB : 4 extraits
+[143/177] 143_patch-ZZZZZC : 165 extraits
+[144/177] 144_patch-ZZZZZM : 9 extraits
+[145/177] 145_patch-ZZZZZN : 1 extraits
+[146/177] 146_patch-ZZZZZO : 1 extraits
+[147/177] 147_patch-ZZZZZP : 1 extraits
+[148/177] 148_patch-ZZZZZQ : 1 extraits
+[149/177] 149_patch-ZZZZZR : 11 extraits
+[150/177] 150_patch-ZZZZZS : 1 extraits
+[137/177] 137_patch-ZZZZW : 16188 extraits
+[152/177] 152_patch-ZZZZZU : 8 extraits
+[153/177] 153_patch-ZZZZZV : 2 extraits
+[154/177] 154_patch-ZZZZZW : 2 extraits
+[155/177] 155_patch-ZZZZZX : 1 extraits
+[156/177] 156_patch-ZZZZZY-SUBMA : 13 extraits
+[157/177] 157_patch-ZZZZZY-SUBVA : 5 extraits
+[158/177] 158_patch-ZZZZZY-SUBVB : 8 extraits
+[159/177] 159_patch-ZZZZZY-SUBVC : 7 extraits
+[160/177] 160_patch-ZZZZZY-SUBVD : 8 extraits
+[161/177] 161_patch-ZZZZZY-SUBXA-HD : 5 extraits
+[162/177] 162_patch-ZZZZZY-SUBXB-HD : 5 extraits
+[163/177] 163_patch-ZZZZZY-SUBXC-HD : 2 extraits
+[164/177] 164_patch-ZZZZZY-SUBXD-HD : 8 extraits
+[165/177] 165_patch-ZZZZZY : 2 extraits
+[166/177] 166_patch-ZZZZZZ : 3 extraits
+[167/177] 167_patch-ZZZZZZA : 18 extraits
+[168/177] 168_patch-ZZZZZZB : 21 extraits
+[169/177] 169_patch-ZZZZZZC : 61 extraits
+[170/177] 170_patch-ZZZZZZD : 3 extraits
+[171/177] 171_patch-ZZZZZZE : 12 extraits
+[172/177] 172_patch-ZZZZZZF : 105 extraits
+[173/177] 173_patch-ZZZZZZG : 2 extraits
+[76/177] 76_patch-WC2 : 49792 extraits
+[174/177] 174_patch-ZZZZZZH : 1 extraits
+[retry] b'World of Warcraft.app\\Contents\\Resources\\Error Reporter.app\\Contents\\Resources\\English.lproj\\MainMenu.nib\\keyedobjects.nib' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'World of Warcraft.app\\Contents\\Resources\\Error Reporter.app\\Contents\\Resources\\English.lproj\\MainMenu.nib\\keyedobjects.nib'
+[retry] b'World of Warcraft.app\\Contents\\Resources\\Error Reporter.app\\Contents\\Resources\\English.lproj\\MainMenu.nib\\keyedobjects.nib' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'World of Warcraft.app\\Contents\\Resources\\Error Reporter.app\\Contents\\Resources\\English.lproj\\MainMenu.nib\\keyedobjects.nib'
+[anomalie] b'World of Warcraft.app\\Contents\\Resources\\Error Reporter.app\\Contents\\Resources\\English.lproj\\MainMenu.nib\\keyedobjects.nib' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'World of Warcraft.app\\Contents\\Resources\\Error Reporter.app\\Contents\\Resources\\English.lproj\\MainMenu.nib\\keyedobjects.nib'
+[retry] b'Data\\enUS\\Documentation\\Manual.pdf' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Manual.pdf'
+[retry] b'Data\\enUS\\Documentation\\Manual.pdf' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Manual.pdf'
+[anomalie] b'Data\\enUS\\Documentation\\Manual.pdf' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Manual.pdf'
+[retry] b'Background Downloader.app\\Contents\\Resources\\downloader-grey.png' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\Resources\\downloader-grey.png'
+[retry] b'Background Downloader.app\\Contents\\Resources\\downloader-grey.png' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\Resources\\downloader-grey.png'
+[anomalie] b'Background Downloader.app\\Contents\\Resources\\downloader-grey.png' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\Resources\\downloader-grey.png'
+[retry] b'Data\\enUS\\Documentation\\Images\\CRepeat.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Images\\CRepeat.jpg'
+[retry] b'Data\\enUS\\Documentation\\Images\\CRepeat.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Images\\CRepeat.jpg'
+[anomalie] b'Data\\enUS\\Documentation\\Images\\CRepeat.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Images\\CRepeat.jpg'
+[retry] b'Data\\enUS\\Documentation\\Manual_TBC.pdf' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Manual_TBC.pdf'
+[retry] b'Data\\enUS\\Documentation\\Manual_TBC.pdf' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Manual_TBC.pdf'
+[anomalie] b'Data\\enUS\\Documentation\\Manual_TBC.pdf' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Manual_TBC.pdf'
+[retry] b'Background Downloader.app\\Contents\\MacOS\\Blizzard Downloader' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\MacOS\\Blizzard Downloader'
+[retry] b'Background Downloader.app\\Contents\\MacOS\\Blizzard Downloader' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\MacOS\\Blizzard Downloader'
+[anomalie] b'Background Downloader.app\\Contents\\MacOS\\Blizzard Downloader' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\MacOS\\Blizzard Downloader'
+[175/177] 175_area-52_patch-D : 12 extraits
+[retry] b'Data\\enUS\\Documentation\\Images\\ItemMarker.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Images\\ItemMarker.jpg'
+[retry] b'Data\\enUS\\Documentation\\Images\\ItemMarker.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Images\\ItemMarker.jpg'
+[anomalie] b'Data\\enUS\\Documentation\\Images\\ItemMarker.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Images\\ItemMarker.jpg'
+[retry] b'World of Warcraft.app\\Contents\\MacOS\\World of Warcraft' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'World of Warcraft.app\\Contents\\MacOS\\World of Warcraft'
+[retry] b'World of Warcraft.app\\Contents\\MacOS\\World of Warcraft' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'World of Warcraft.app\\Contents\\MacOS\\World of Warcraft'
+[anomalie] b'World of Warcraft.app\\Contents\\MacOS\\World of Warcraft' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'World of Warcraft.app\\Contents\\MacOS\\World of Warcraft'
+[retry] b'Scan.dll' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'Scan.dll'
+[retry] b'Scan.dll' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'Scan.dll'
+[anomalie] b'Scan.dll' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'Scan.dll'
+[retry] b'Battle.net.dll' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'Battle.net.dll'
+[retry] b'Battle.net.dll' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'Battle.net.dll'
+[anomalie] b'Battle.net.dll' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'Battle.net.dll'
+[retry] b'Background Downloader.app\\Contents\\Resources\\downloader-splash-zhCN.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\Resources\\downloader-splash-zhCN.jpg'
+[retry] b'Background Downloader.app\\Contents\\Resources\\downloader-splash-zhCN.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\Resources\\downloader-splash-zhCN.jpg'
+[anomalie] b'Background Downloader.app\\Contents\\Resources\\downloader-splash-zhCN.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\Resources\\downloader-splash-zhCN.jpg'
+[retry] b'Data\\enUS\\Documentation\\Manual_WLK.pdf' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Manual_WLK.pdf'
+[retry] b'Data\\enUS\\Documentation\\Manual_WLK.pdf' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Manual_WLK.pdf'
+[anomalie] b'Data\\enUS\\Documentation\\Manual_WLK.pdf' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'Data\\enUS\\Documentation\\Manual_WLK.pdf'
+[retry] b'World of Warcraft Launcher.app\\Contents\\MacOS\\Launcher' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'World of Warcraft Launcher.app\\Contents\\MacOS\\Launcher'
+[retry] b'World of Warcraft Launcher.app\\Contents\\MacOS\\Launcher' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'World of Warcraft Launcher.app\\Contents\\MacOS\\Launcher'
+[anomalie] b'World of Warcraft Launcher.app\\Contents\\MacOS\\Launcher' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'World of Warcraft Launcher.app\\Contents\\MacOS\\Launcher'
+[retry] b'Wow.exe' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'Wow.exe'
+[retry] b'Wow.exe' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'Wow.exe'
+[anomalie] b'Wow.exe' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'Wow.exe'
+[retry] b'Background Downloader.app\\Contents\\Resources\\downloader-splash.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\Resources\\downloader-splash.jpg'
+[retry] b'Background Downloader.app\\Contents\\Resources\\downloader-splash.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\Resources\\downloader-splash.jpg'
+[anomalie] b'Background Downloader.app\\Contents\\Resources\\downloader-splash.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\Resources\\downloader-splash.jpg'
+[retry] b'Background Downloader.app\\Contents\\Resources\\downloader-splash-zhTW.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 1/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\Resources\\downloader-splash-zhTW.jpg'
+[retry] b'Background Downloader.app\\Contents\\Resources\\downloader-splash-zhTW.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 2/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\Resources\\downloader-splash-zhTW.jpg'
+[anomalie] b'Background Downloader.app\\Contents\\Resources\\downloader-splash-zhTW.jpg' dans C:\Jeux\Conquest of Azeroth\Data\enUS\backup-enUS.MPQ : tentative 3/3 : [Errno 1392] SFileReadFile : b'Background Downloader.app\\Contents\\Resources\\downloader-splash-zhTW.jpg'
+[176/177] 176_enUS_backup-enUS : 176 extraits, 16 anomalies (fichiers ignorés, archive non mise en cache)
+[177/177] 177_enUS_base-enUS : 188 extraits
+[151/177] 151_patch-ZZZZZT : 15102 extraits
+[64/177] 64_patch-TA : 91960 extraits
+Fusion : 751520 fichiers (751520 liés, 0 copiés). Surcharges listées dans overrides-coa.txt
+[anomalie] Profil coa : 16 fichiers ignorés après 3 tentatives ; fusion potentiellement incomplète. Les archives concernées seront retentées au prochain lancement.
+
+=== extract_mpq.py ===
+
+===== profil hd : C:\Jeux\World of Warcraft 3.3.5\Data =====
+24 archives (3 ignorées), patchs : D:\repo\reforge-allies\01-HD-Patchs, fusion : D:\repo\reforge-allies\01-HD
+  ignorée : 21_patch-Z-WotLK-Allies
+  ignorée : 22_patch-Z-WotLK-Backports
+  ignorée : 23_patch-Z-WotLK-Extensions
+[3/24] 03_expansion : 11871 extraits
+[4/24] 04_lichking : 16179 extraits
+[6/24] 06_patch-2 : 11816 extraits
+[7/24] 07_patch-3 : 2994 extraits
+[2/24] 02_common-2 : 43083 extraits
+[9/24] 09_frFR_speech-frfr : 4648 extraits
+[10/24] 10_frFR_expansion-locale-frfr : 420 extraits
+[11/24] 11_frFR_lichking-locale-frfr : 55 extraits
+[8/24] 08_frFR_locale-frfr : 10627 extraits
+[13/24] 13_frFR_lichking-speech-frfr : 278 extraits
+[12/24] 12_frFR_expansion-speech-frfr : 1502 extraits
+[15/24] 15_frFR_patch-frfr-2 : 2309 extraits
+[16/24] 16_frFR_patch-frfr-3 : 966 extraits
+[14/24] 14_frFR_patch-frfr : 7017 extraits
+[18/24] 18_patch-C-cursors : 47 extraits
+[19/24] 19_patch-L-loading-screen : 124 extraits
+[20/24] 20_patch-L-login-screen : 39 extraits
+[21/24] 24_frFR_backup-frfr : 142 extraits
+[22/24] 25_frFR_base-frfr : 141 extraits
+[23/24] 26_frFR_patch-frFR-M : 1552 extraits
+[24/24] 27_frFR_patch-frFR-N : 639 extraits
+[5/24] 05_patch : 41160 extraits
+[1/24] 01_common : 83670 extraits
+[17/24] 17_patch-4-hd : 144899 extraits
+Fusion : 273747 fichiers (273747 liés, 0 copiés). Surcharges listées dans overrides-hd.txt

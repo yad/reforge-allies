@@ -1,0 +1,109 @@
+
+=== clean_hd.py ===
+Ordre de priorité (bas -> haut) :
+  01_common              83671 fichiers
+  02_common-2            43084 fichiers
+  03_expansion           11872 fichiers
+  04_lichking            16180 fichiers
+  05_patch               41161 fichiers
+  06_patch-2             11817 fichiers
+  07_patch-3              2995 fichiers
+  08_frFR_locale-frfr    10628 fichiers
+  09_frFR_speech-frfr     4649 fichiers
+  10_frFR_expansion-locale-frfr     421 fichiers
+  11_frFR_lichking-locale-frfr      56 fichiers
+  12_frFR_expansion-speech-frfr    1503 fichiers
+  13_frFR_lichking-speech-frfr     279 fichiers
+  14_frFR_patch-frfr      7018 fichiers
+  15_frFR_patch-frfr-2    2310 fichiers
+  16_frFR_patch-frfr-3     967 fichiers
+  17_patch-4-hd         144900 fichiers
+  18_patch-C-cursors        48 fichiers
+  19_patch-L-loading-screen     125 fichiers
+  20_patch-L-login-screen      40 fichiers
+  24_frFR_backup-frfr      143 fichiers
+  25_frFR_base-frfr        142 fichiers
+  26_frFR_patch-frFR-M    1553 fichiers
+  27_frFR_patch-frFR-N     640 fichiers
+! D:\repo\reforge-allies\01-HD-patchs\17_patch-4-hd\Character\Human\Male\HumanMale_CATA.m2: version M2 272 incompatible avec WotLK (264) ; conservé sans analyse des dépendances, à ne pas utiliser comme modèle joueur 3.3.5 sans conversion
+
+19197 fichiers retenus -> D:\repo\reforge-allies\02-HD-Clean\patch-X.mpq
+  CharacterFacialHairStyles.dbc      <- 17_patch-4-hd  (272 lignes, 8 champs)  masque: 08_frFR_locale-frfr, 14_frFR_patch-frfr
+  CharBaseInfo.dbc                   <- 08_frFR_locale-frfr (62 lignes, 2 champs)
+  CharHairGeosets.dbc                <- 17_patch-4-hd  (370 lignes, 6 champs)  masque: 08_frFR_locale-frfr, 14_frFR_patch-frfr
+  CharSections.dbc                   <- 17_patch-4-hd  (10060 lignes, 10 champs)  masque: 08_frFR_locale-frfr, 14_frFR_patch-frfr, 15_frFR_patch-frfr-2, 16_frFR_patch-frfr-3
+  CharStartOutfit.dbc                <- 15_frFR_patch-frfr-2 (126 lignes, 77 champs)  masque: 08_frFR_locale-frfr, 14_frFR_patch-frfr
+  ChrRaces.dbc                       <- 16_frFR_patch-frfr-3 (21 lignes, 69 champs)  masque: 08_frFR_locale-frfr, 14_frFR_patch-frfr, 15_frFR_patch-frfr-2
+  CreatureDisplayInfo.dbc            <- 17_patch-4-hd  (24295 lignes, 16 champs)  masque: 08_frFR_locale-frfr, 14_frFR_patch-frfr, 15_frFR_patch-frfr-2, 16_frFR_patch-frfr-3
+  CreatureDisplayInfoExtra.dbc       <- 17_patch-4-hd  (15479 lignes, 21 champs)  masque: 08_frFR_locale-frfr, 14_frFR_patch-frfr, 15_frFR_patch-frfr-2, 16_frFR_patch-frfr-3
+  CreatureModelData.dbc              <- 17_patch-4-hd  (1499 lignes, 28 champs)  masque: 08_frFR_locale-frfr, 14_frFR_patch-frfr, 15_frFR_patch-frfr-2, 16_frFR_patch-frfr-3
+  SkillLineAbility.dbc               <- 16_frFR_patch-frfr-3 (10219 lignes, 14 champs)  masque: 08_frFR_locale-frfr, 14_frFR_patch-frfr, 15_frFR_patch-frfr-2
+  SkillRaceClassInfo.dbc             <- 15_frFR_patch-frfr-2 (241 lignes, 8 champs)  masque: 08_frFR_locale-frfr, 14_frFR_patch-frfr
+
+Introuvables dans la pile :
+  - character/voidelf_hd/female/voidelffemale.m2
+  - character/worgen_hd/male/worgenmale.m2
+  - world/expansion03/doodads/lostisles/rocks/lostisles_mossyrock_01.blp
+  - world/generic/goblin/passivedoodads/lostisles/foliage.blp
+  - character/eredar_hd/female/eredarfemale.m2
+  - character/nightelf_dh_hd/female/nightelffemale_dh.m2
+  - character/eredar_hd/male/eredarmale.m2
+  - character/zandalaritroll_hd/female/zandalaritrollfemale.m2
+  - world/generic/goblin/passivedoodads/kezan/tents/goblin_lightglobe_01.blp
+  - character/nightelf_dh_hd/male/nightelfmale_dh.m2
+  - character/vulpera_hd/male/vulperamale.m2
+  - character/zandalaritroll_hd/male/zandalaritrollmale.m2
+  - character/nightborne_hd/female/nightbornefemale.m2
+  - character/bloodelf_dh_hd/female/bloodelffemale_dh.m2
+  - character/goblinr_hd/male/jalarinesmale.m2
+  - character/worgen_hd/female/worgenfemale.m2
+  - character/nightborne_hd/male/nightbornemale.m2
+  - character/panda_hd/female/pandafemale.m2
+  - world/generic/goblin/passivedoodads/crazymachines/goblin_bamboo_brown.blp
+  - character/orc/male/orcmale2.m2
+  - character/goblinr_hd/female/jalarinesfemale.m2
+  - character/panda_hd/male/pandamale.m2
+  - character/voidelf_hd/male/voidelfmale.m2
+  - character/bloodelf_dh_hd/male/bloodelfmale_dh.m2
+  - character/lightforgeddraenei_hd/male/lightforgeddraeneimale.m2
+  - character/vulpera_hd/female/vulperafemale.m2
+  - world/expansion03/doodads/lostisles/bushes/lostisles_palmleaf_01.blp
+  - world/expansion03/doodads/lostisles/bushes/lostisles_aloe_01.blp
+  - character/lightforgeddraenei_hd/female/lightforgeddraeneifemale.m2
+
+Modèles repérés (141) :
+   character/bloodelf/female/bloodelffemale.m2
+   character/bloodelf/male/bloodelfmale.m2
+   character/bloodelf_dh_hd/female/bloodelffemale_dh.m2
+   character/bloodelf_dh_hd/male/bloodelfmale_dh.m2
+   character/broken/female/brokenfemale.m2
+   character/broken/male/brokenmale.m2
+   character/draenei/female/draeneifemale.m2
+   character/draenei/male/draeneimale.m2
+   character/dwarf/female/dwarffemale.m2
+   character/dwarf/male/dwarfmale.m2
+   character/eredar_hd/female/eredarfemale.m2
+   character/eredar_hd/male/eredarmale.m2
+   character/felorc/female/felorcfemale.m2
+   character/felorc/male/felorcmale.m2
+   character/felorc/male/felorcmaleaxe.m2
+   character/felorc/male/felorcmalesword.m2
+   character/foresttroll/male/foresttrollmale.m2
+   character/gnome/female/gnomefemale.m2
+   character/gnome/male/gnomemale.m2
+   character/goblin/female/goblinfemale.m2
+   character/goblin/male/goblinmale.m2
+   character/goblinold/male/goblinoldmale.m2
+   character/goblinr_hd/female/jalarinesfemale.m2
+   character/goblinr_hd/male/jalarinesmale.m2
+   character/highelf/female/bloodelffemale.m2
+   character/highelf/male/bloodelfmale.m2
+   character/human/female/humanfemale.m2
+   character/human/male/humanmale.m2
+   character/human/male/humanmale_cata.m2
+   character/icetroll/male/icetrollmale.m2
+   ... +111
+
+Taille totale : 1660.2 Mo
+
+OK -> D:\repo\reforge-allies\02-HD-Clean  (détails dans report.json)

@@ -1,0 +1,368 @@
+{
+  "base": "02-HD-Clean/patch-X.mpq",
+  "races_dir": "03-Races",
+  "output": "04-Merge/patch-Z.mpq",
+  "mpq_output": "C:/Jeux/World of Warcraft 3.3.5/Data/patch-Z-WotLK-Allies.mpq",
+  "stormlib_path": "StormLib.dll",
+  "glue_source": null,
+  "locale": "frFR",
+  "max_race_id": 32,
+  "relocate_conflicts": true,
+  "overwrite_files": true,
+  "asset_roots": ["01-HD/*.mpq", "Esteria"],
+  "glue": {
+    "top_y": -75,
+    "gap": -12,
+    "x": 32,
+    "round_icons": true,
+    "race_order": {
+      "Alliance": ["Human", "Dwarf", "Night Elf", "Gnome", "Draenei", "High Elf", "Worgen", "Pandaren", "Murloc"],
+      "Horde": ["Orc", "Undead", "Tauren", "Troll", "Broken", "Blood Elf", "Goblin", "Ogre", "Naga"]
+    },
+    "hidden_races": ["Zandalari Troll", "Forest Troll", "Ice Troll", "Drakkari Troll", "Fel Orc", "Mag'har Orc", "Kul Tiran", "Dark Iron Dwarf", "Highmountain Tauren"],
+    "race_variants": [
+      ["Troll", "Zandalari Troll", "Forest Troll", "Ice Troll", "Drakkari Troll"],
+      ["Orc", "Fel Orc", "Mag'har Orc"],
+      ["Human", "Kul Tiran"],
+      ["Dwarf", "Dark Iron Dwarf"],
+      ["Tauren", "Highmountain Tauren"]
+    ]
+  },
+  "races": [
+    {
+      "name": "High Elf",
+      "allowed_classes": ["Warrior", "Paladin", "Hunter", "Rogue", "Priest", "Shaman", "Mage", "Warlock", "Druid"],
+      "source": 14,
+      "target": 23,
+      "faction": "Alliance",
+      "appearance": {
+        "base_race": 10,
+        "eye_color": "blue",
+        "male_model": "Character/HighElf/Male/BloodElfMale.m2",
+        "female_model": "Character/HighElf/Female/BloodElfFemale.m2"
+      },
+      "names": {
+        "enUS": ["High Elf", "High Elf"],
+        "frFR": ["Haut-elfe", "Haute-elfe"]
+      },
+      "background": "Human",
+      "icon_fallback": "BLOODELF",
+      "outfit": "copy",
+      "outfit_from": 1,
+      "info": "Descendants des elfes de la nuit qui fondèrent le royaume de Quel'Thalas, les hauts elfes sont des érudits fiers, maîtres des arcanes.",
+      "abilities": []
+    },
+    {
+      "name": "Broken",
+      "allowed_classes": ["Warrior", "Paladin", "Hunter", "Rogue", "Priest", "Shaman", "Mage", "Warlock", "Druid"],
+      "source": 22,
+      "target": 14,
+      "replace_non_playable": true,
+      "faction": "Horde",
+      "names": {
+        "enUS": ["Broken", "Broken"],
+        "frFR": ["Brisé", "Brisée"]
+      },
+      "background": "Tauren",
+      "zoom_background": "Tauren",
+      "zoom_camera_scale": 0.5,
+      "icon_fallback": "DRAENEI",
+      "outfit": "copy",
+      "outfit_from": 2,
+      "info": "Anciens draeneï dégénérés par l'influence démoniaque de Draenor, les Brisés ont fini par se ranger auprès de la Horde.",
+      "abilities": []
+    },
+    {
+      "name": "Goblin",
+      "allowed_classes": ["Warrior", "Paladin", "Hunter", "Rogue", "Priest", "Shaman", "Mage", "Warlock", "Druid"],
+      "source": 9,
+      "target": 9,
+      "replace_non_playable": true,
+      "faction": "Horde",
+      "appearance": {
+        "base_race": 9
+      },
+      "names": {
+        "enUS": ["Goblin", "Goblin"],
+        "frFR": ["Gobelin", "Gobeline"]
+      },
+      "background": "Troll",
+      "zoom_background": "Troll",
+      "zoom_camera_scale": 0.9,
+      "icon_fallback": "ORC",
+      "outfit": "copy",
+      "outfit_from": 2,
+      "info": "Originaires de Kezan, les gobelins sont des marchands et des inventeurs rusés, toujours à l'affût d'une bonne affaire.",
+      "abilities": []
+    },
+    {
+      "name": "Worgen",
+      "allowed_classes": ["Warrior", "Paladin", "Hunter", "Rogue", "Priest", "Shaman", "Mage", "Warlock", "Druid"],
+      "source": 13,
+      "target": 22,
+      "faction": "Alliance",
+      "names": {
+        "enUS": ["Worgen", "Worgen"],
+        "frFR": ["Worgen", "Worgen"]
+      },
+      "background": "Human",
+      "zoom_background": "Human",
+      "zoom_camera_scale": 0.5,
+      "icon_fallback": "HUMAN",
+      "outfit": "copy",
+      "outfit_from": 1,
+      "info": "Humains de Gilnéas frappés par la malédiction des worgen, ils ont appris à vivre avec la bête qui sommeille en eux.",
+      "abilities": []
+    },
+    {
+      "name": "Pandaren",
+      "allowed_classes": ["Warrior", "Paladin", "Hunter", "Rogue", "Priest", "Shaman", "Mage", "Warlock", "Druid"],
+      "source": 20,
+      "target": 25,
+      "faction": "Alliance",
+      "names": {
+        "enUS": ["Pandaren", "Pandaren"],
+        "frFR": ["Pandaren", "Pandaren"]
+      },
+      "background": "Dwarf",
+      "zoom_background": "Dwarf",
+      "zoom_camera_scale": 0.5,
+      "icon_fallback": "HUMAN",
+      "outfit": "copy",
+      "outfit_from": 1,
+      "info": "Originaires de Pandarie, ces pandaren ont choisi de rejoindre l'Alliance et de partager leur sagesse et leurs traditions martiales.",
+      "abilities": []
+    },
+    {
+      "name": "Naga",
+      "allowed_classes": ["Warrior", "Paladin", "Hunter", "Rogue", "Priest", "Shaman", "Mage", "Warlock", "Druid"],
+      "source": 21,
+      "target": 13,
+      "replace_non_playable": true,
+      "faction": "Horde",
+      "names": {
+        "enUS": ["Naga", "Naga"],
+        "frFR": ["Naga", "Naga"]
+      },
+      "background": "Troll",
+      "zoom_background": "Troll",
+      "zoom_camera_scale": 0.9,
+      "icon_fallback": "SCOURGE",
+      "outfit": "copy",
+      "outfit_from": 2,
+      "info": "Anciens bien-nés transformés par les profondeurs, ces naga ont choisi de mettre leur puissance et leur magie au service de la Horde.",
+      "abilities": []
+    },
+    {
+      "name": "Zandalari Troll",
+      "client_file": "ZANDALARI_TROLL",
+      "allowed_classes": ["Warrior", "Hunter", "Rogue", "Priest", "Death Knight", "Shaman", "Mage"],
+      "source": 12,
+      "target": 31,
+      "faction": "Horde",
+      "names": {
+        "enUS": ["Zandalari Troll", "Zandalari Troll"],
+        "frFR": ["Troll zandalari", "Troll zandalari"]
+      },
+      "background": "Troll",
+      "icon_fallback": "TROLL",
+      "outfit": "copy",
+      "outfit_from": 2,
+      "info": "Trolls de Zandalar, fiers héritiers d'une ancienne civilisation."
+    },
+    {
+      "name": "Forest Troll",
+      "client_file": "FOREST_TROLL",
+      "allowed_classes": ["Warrior", "Hunter", "Rogue", "Priest", "Death Knight", "Shaman", "Mage"],
+      "source": 24,
+      "target": 18,
+      "replace_non_playable": true,
+      "appearance": {
+        "source_race": 28,
+        "skin_tone": "forest",
+        "skin_colors": [0, 1, 2, 3, 4, 8]
+      },
+      "faction": "Horde",
+      "names": {
+        "enUS": ["Forest Troll", "Forest Troll"],
+        "frFR": ["Troll des forêts", "Troll des forêts"]
+      },
+      "background": "Troll",
+      "icon_fallback": "TROLL",
+      "outfit": "copy",
+      "outfit_from": 2,
+      "info": "Trolls des forêts, endurcis par les guerres et les forêts d'Azeroth."
+    },
+    {
+      "name": "Ice Troll",
+      "client_file": "ICE_TROLL",
+      "allowed_classes": ["Warrior", "Hunter", "Rogue", "Priest", "Death Knight", "Shaman", "Mage"],
+      "source": 25,
+      "target": 21,
+      "replace_non_playable": true,
+      "appearance": {
+        "source_race": 28,
+        "skin_tone": "ice",
+        "skin_colors": [0, 1, 2, 3, 4, 8]
+      },
+      "faction": "Horde",
+      "names": {
+        "enUS": ["Ice Troll", "Ice Troll"],
+        "frFR": ["Troll des glaces", "Troll des glaces"]
+      },
+      "background": "Troll",
+      "icon_fallback": "TROLL",
+      "outfit": "copy",
+      "outfit_from": 2,
+      "info": "Trolls des glaces, adaptés aux terres glacées du Norfendre."
+    },
+    {
+      "name": "Drakkari Troll",
+      "client_file": "DRAKKARI_TROLL",
+      "allowed_classes": ["Warrior", "Hunter", "Rogue", "Priest", "Death Knight", "Shaman", "Mage"],
+      "source": 28,
+      "target": 26,
+      "faction": "Horde",
+      "names": {
+        "enUS": ["Drakkari Troll", "Drakkari Troll"],
+        "frFR": ["Troll drakkari", "Troll drakkari"]
+      },
+      "background": "Troll",
+      "icon_fallback": "TROLL",
+      "outfit": "copy",
+      "outfit_from": 2,
+      "info": "Les Drakkari sont des trolls du Norfendre, façonnés par le froid et les conflits."
+    },
+    {
+      "name": "Fel Orc",
+      "client_file": "FEL_ORC",
+      "source": 23,
+      "target": 12,
+      "replace_non_playable": true,
+      "appearance": {
+        "base_race": 2,
+        "skin_tone": "red"
+      },
+      "faction": "Horde",
+      "allowed_classes": ["Warrior", "Hunter", "Rogue", "Death Knight", "Shaman", "Warlock"],
+      "names": {
+        "enUS": ["Fel Orc", "Fel Orc"],
+        "frFR": ["Gangr'orc", "Gangr'orque"]
+      },
+      "background": "Orc",
+      "icon_fallback": "ORC",
+      "outfit": "copy",
+      "outfit_from": 2,
+      "info": "Orcs transformés par les énergies démoniaques."
+    },
+    {
+      "name": "Mag'har Orc",
+      "client_file": "MAGHAR_ORC",
+      "source": 49,
+      "target": 29,
+      "appearance": {
+        "base_race": 2,
+        "skin_tone": "brown"
+      },
+      "faction": "Horde",
+      "allowed_classes": ["Warrior", "Hunter", "Rogue", "Death Knight", "Shaman", "Warlock"],
+      "names": {
+        "enUS": ["Mag'har Orc", "Mag'har Orc"],
+        "frFR": ["Orc mag'har", "Orque mag'har"]
+      },
+      "background": "Orc",
+      "icon_fallback": "ORC",
+      "outfit": "copy",
+      "outfit_from": 2,
+      "info": "Orcs restés libres de la corruption démoniaque."
+    },
+    {
+      "name": "Kul Tiran",
+      "client_file": "KUL_TIRAN",
+      "source": 16,
+      "target": 32,
+      "faction": "Alliance",
+      "allowed_classes": ["Warrior", "Paladin", "Rogue", "Priest", "Death Knight", "Mage", "Warlock"],
+      "names": {
+        "enUS": ["Kul Tiran", "Kul Tiran"],
+        "frFR": ["Kultirassien", "Kultirassienne"]
+      },
+      "background": "Human",
+      "zoom_background": "Human",
+      "zoom_camera_scale": 0.5,
+      "icon_fallback": "HUMAN",
+      "outfit": "copy",
+      "outfit_from": 1,
+      "info": "Marins et habitants du royaume insulaire de Kul Tiras."
+    },
+    {
+      "name": "Dark Iron Dwarf",
+      "client_file": "DARK_IRON_DWARF",
+      "source": 48,
+      "target": 30,
+      "faction": "Alliance",
+      "allowed_classes": ["Warrior", "Paladin", "Hunter", "Rogue", "Priest", "Death Knight"],
+      "names": {
+        "enUS": ["Dark Iron Dwarf", "Dark Iron Dwarf"],
+        "frFR": ["Nain sombrefer", "Naine sombrefer"]
+      },
+      "background": "Dwarf",
+      "icon_fallback": "DWARF",
+      "outfit": "copy",
+      "outfit_from": 3,
+      "info": "Nains du clan Sombrefer, forgés par le feu et les profondeurs de la montagne."
+    },
+    {
+      "name": "Highmountain Tauren",
+      "client_file": "HIGHMOUNTAIN_TAUREN",
+      "source": 66,
+      "target": 28,
+      "faction": "Horde",
+      "allowed_classes": ["Warrior", "Hunter", "Death Knight", "Shaman", "Druid"],
+      "names": {
+        "enUS": ["Highmountain Tauren", "Highmountain Tauren"],
+        "frFR": ["Tauren de Haut-Roc", "Taurène de Haut-Roc"]
+      },
+      "background": "Tauren",
+      "icon_fallback": "TAUREN",
+      "outfit": "copy",
+      "outfit_from": 6,
+      "info": "Héritiers des tribus de Haut-Roc, liés aux esprits de la terre et de la montagne."
+    },
+    {
+      "name": "Murloc",
+      "client_file": "MURLOC",
+      "source": 30,
+      "target": 24,
+      "faction": "Alliance",
+      "allowed_classes": ["Warrior", "Paladin", "Hunter", "Rogue", "Priest", "Shaman", "Mage", "Warlock", "Druid"],
+      "names": {
+        "enUS": ["Murloc", "Murloc"],
+        "frFR": ["Murloc", "Murloc"]
+      },
+      "background": "Gnome",
+      "icon_fallback": "HUMAN",
+      "outfit": "copy",
+      "outfit_from": 1,
+      "info": "Peuple amphibie des côtes et des rivières, désormais allié aux peuples de l'Alliance."
+    },
+    {
+      "name": "Ogre",
+      "client_file": "OGRE",
+      "source": 53,
+      "target": 27,
+      "swap_model_sexes": true,
+      "faction": "Horde",
+      "allowed_classes": ["Warrior", "Paladin", "Hunter", "Rogue", "Priest", "Shaman", "Mage", "Warlock", "Druid"],
+      "names": {
+        "enUS": ["Ogre", "Ogre"],
+        "frFR": ["Ogre", "Ogresse"]
+      },
+      "background": "Orc",
+      "icon_fallback": "ORC",
+      "outfit": "copy",
+      "outfit_from": 2,
+      "info": "Puissants descendants des clans de Draenor, les ogres combattent aux côtés de la Horde."
+    }
+  ]
+}

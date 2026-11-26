@@ -1,0 +1,75 @@
+{
+  "id": 16,
+  "name": "Kul Tiran",
+  "client_file": "KulTiran",
+  "faction": "Alliance",
+  "male_display": 977368,
+  "female_display": 977369,
+  "classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "char_sections": 264,
+  "dbc_rows": {
+    "ChrRaces": 1,
+    "CharBaseInfo": 30,
+    "CharStartOutfit": 22,
+    "SkillRaceClassInfo": 7,
+    "CharSections": 264,
+    "CharacterFacialHairStyles": 73,
+    "CharHairGeosets": 12,
+    "CreatureDisplayInfo": 2,
+    "CreatureModelData": 2
+  },
+  "display_ids": [
+    977368,
+    977369
+  ],
+  "extra_display_ids": [],
+  "model_ids": [
+    901229,
+    901230
+  ],
+  "models": [
+    "character/kultiran/female",
+    "character/kultiran/male"
+  ],
+  "files_copied": 702,
+  "files_missing": [],
+  "appearance_textures": [],
+  "skin_geoset_fixes": [],
+  "placeholder_textures_cleared": 0,
+  "portraits": {},
+  "portraits_missing": [
+    "male",
+    "female"
+  ]
+}

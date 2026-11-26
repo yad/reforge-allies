@@ -1,0 +1,97 @@
+{
+  "id": 21,
+  "name": "Naga",
+  "client_file": "Naga_",
+  "faction": "Horde",
+  "male_display": 977511,
+  "female_display": 977512,
+  "classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "char_sections": 1315,
+  "dbc_rows": {
+    "ChrRaces": 1,
+    "CharBaseInfo": 30,
+    "CharStartOutfit": 22,
+    "SkillRaceClassInfo": 7,
+    "CharSections": 1315,
+    "CharacterFacialHairStyles": 336,
+    "CharHairGeosets": 10,
+    "CreatureDisplayInfo": 2,
+    "CreatureModelData": 2
+  },
+  "display_ids": [
+    977511,
+    977512
+  ],
+  "extra_display_ids": [],
+  "model_ids": [
+    901319,
+    901320
+  ],
+  "models": [
+    "custom/naga/sirus/female",
+    "custom/naga/sirus/male"
+  ],
+  "files_copied": 508,
+  "files_missing": [
+    "custom/naga/sirus/female/DragonSkin1Green",
+    "custom/naga/sirus/male/DragonSkin1Green"
+  ],
+  "appearance_textures": [],
+  "skin_geoset_fixes": [
+    {
+      "path": "custom/naga/sirus/female/snaga_female00.skin",
+      "from": 10000,
+      "to": 0,
+      "sections": 8
+    },
+    {
+      "path": "custom/naga/sirus/male/snaga_male00.skin",
+      "from": 10000,
+      "to": 0,
+      "sections": 3
+    }
+  ],
+  "placeholder_textures_cleared": 2095,
+  "portraits": {
+    "male": {
+      "path": "Portraits/male.png",
+      "source": "Charactercreate-races_naga-male.png"
+    },
+    "female": {
+      "path": "Portraits/female.png",
+      "source": "Charactercreate-races_naga-female.png"
+    }
+  },
+  "portraits_missing": []
+}

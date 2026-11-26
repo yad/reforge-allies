@@ -1,0 +1,78 @@
+{
+  "id": 24,
+  "name": "Forest Troll",
+  "client_file": "ForestTroll",
+  "faction": "Horde",
+  "male_display": 977382,
+  "female_display": 977383,
+  "classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "char_sections": 217,
+  "dbc_rows": {
+    "ChrRaces": 1,
+    "CharBaseInfo": 30,
+    "CharStartOutfit": 22,
+    "SkillRaceClassInfo": 7,
+    "CharSections": 217,
+    "CharacterFacialHairStyles": 22,
+    "CharHairGeosets": 11,
+    "CreatureDisplayInfo": 2,
+    "CreatureModelData": 2
+  },
+  "display_ids": [
+    977382,
+    977383
+  ],
+  "extra_display_ids": [],
+  "model_ids": [
+    901243,
+    901244
+  ],
+  "models": [
+    "CHARACTER/ForestTroll/Male",
+    "CHARACTER/ForestTroll/Male"
+  ],
+  "files_copied": 279,
+  "files_missing": [
+    "Character/ForestTroll/Female/ForestTrollFemaleFaceLower00_00.blp",
+    "Character/ForestTroll/Female/ForestTrollFemaleSkin00_00.blp"
+  ],
+  "appearance_textures": [],
+  "skin_geoset_fixes": [],
+  "placeholder_textures_cleared": 0,
+  "portraits": {},
+  "portraits_missing": [
+    "male",
+    "female"
+  ]
+}

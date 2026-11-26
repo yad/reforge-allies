@@ -1,0 +1,361 @@
+
+=== extract_races.py ===
+ ID  Nom                    Faction   Classes Sections  Base
+  1  Human                  Alliance       30     2814  standard
+  2  Orc                    Horde          30     3312  standard
+  3  Dwarf                  Alliance       30     2576  standard
+  4  Night Elf              Alliance       30     3764  standard
+  5  Undead                 Horde          30     2343  standard
+  6  Tauren                 Horde          30     1024  standard
+  7  Gnome                  Alliance       30     1312  standard
+  8  Troll                  Horde          30     2209  standard
+  9  Goblin                 Horde          30     1176  
+ 10  Blood Elf              Horde          30     4617  standard
+ 11  Draenei                Alliance       30     2112  standard
+ 12  Zandalari Troll        Horde          30     2832  
+ 13  Worgen                 Alliance       30      741  
+ 14  High Elf               Alliance       30     4617  
+ 15  Tuskarr                Alliance       30      118  
+ 16  Kul Tiran              Alliance       30      264  
+ 17  Taunka                 Horde          30       17  
+ 18  Vrykul                 Alliance       30       78  
+ 19  Vulpera                Horde          30      504  
+ 20  Pandaren               Horde          30     1387  
+ 21  Naga                   Horde          30     1315  
+ 22  Broken                 Alliance       30      831  
+ 23  Fel Orc                Horde          30       16  
+ 24  Forest Troll           Horde          30      217  
+ 25  Ice Troll              Horde          30       49  
+ 26  Skeleton               Horde          30       25  
+ 27  Earthen                Alliance       30     2040  
+ 28  Drakkari Troll         Horde          30      291  
+ 29  Pandaren               Alliance       30     1351  
+ 30  Murloc                 Alliance       30       75  
+ 31  Murloc                 Horde          30       75  
+ 32  Forgotten              Alliance       30      112  
+ 33  Forgotten              Alliance        0       86  
+ 34  Fel Orc                Alliance        0       16  
+ 35  Naga                   Alliance        0       34  
+ 36  Broken                 Alliance        0       54  
+ 37  Skeleton               Alliance        0       25  
+ 38  Vrykul                 Alliance        0       78  
+ 39  Tuskarr                Alliance        0      118  
+ 40  Forest Troll           Alliance        0      217  
+ 41  Taunka                 Alliance        0       17  
+ 42  Northrend Skeleton     Alliance        0       20  
+ 43  Ice Troll              Alliance        0       49  
+ 44  Drakkari Troll         Alliance        0      291  
+ 45  Leper Troll            Alliance        0      175  
+ 46  Troglodyte             Alliance        0      137  
+ 47  Alpha Worgen           Alliance       30     1046  
+ 48  Dark Iron Dwarf        Alliance       30      874  
+ 49  Mag'har Orc            Horde          30     3312  
+ 50  Furbolg                Alliance       30       86  
+ 51  Undead Gnome           Horde          30     1152  
+ 52  Orc                    Alliance        0     1036  
+ 53  Ogre                   Horde          30       52  
+ 54  Dracthyr               Alliance       30   143204  
+ 55  Eredar                 Horde          30    63352  
+ 56  Harpy                  Horde          30       23  
+ 57  Alpha Goblin           Horde          30     1260  
+ 58  Dracthyr               Horde          30   143204  
+ 59  Void Elf               Alliance       31     4717  
+ 60  Illidari Blood Elf     Horde          30     7266  
+ 61  Illidari Night Elf     Alliance       30     6685  
+ 62  Lightforged Draenei    Alliance       30    66936  
+ 63  Nightborne             Horde          30    88022  
+ 65  Test Race              Alliance       30     3209  
+ 66  Highmountain Tauren    Horde          30     1408  
+ 67  Mechagnome             Alliance       30    67080  
+ 68  Earthen                Alliance       30      366  
+ 69  Earthen                Horde          30      366  
+ 70  Haranir                Horde          30       10  
+ 71  Haranir                Alliance       30       10  
+ 72  Windshaper Skyborne    Horde          30      188  
+ 74  Vulpera                Horde          30       10  
+ 75  Centaur                Alliance       30      267  
+ 77  High Order Skyborne    Alliance       30      188  
+ 78  Jinyu                  Alliance       30       55  
+ 79  Arakkoa                Alliance       30      804  
+ 80  Darkfallen             Alliance       30     2014  
+ 81  Darkfallen             Horde          30     2014  
+ 82  Sethrak                Alliance       30       40  
+ 83  Gnoll                  Horde          30    19488  
+ 85  Two-Headed Ogre        Horde          31      402  
+ 86  Sureki                 Alliance       30      167  
+ 87  Faceless One           Horde          31       56  
+ 88  Qiraji                 Horde          30       71  
+ 89  Dreadlord              Horde          30       62  
+ 90  Banshee                Horde          31       70  
+ 91  Titan                  Alliance       30       86  
+ 92  Wretched               Horde          30      410  
+ 93  Fungarian              Alliance       31      256  
+ 94  Snagtooth              Alliance       30      102  
+ 96  The Twins              Alliance       31      112  
+ 97  Saberon                Alliance       30      120  
+ 98  Drakonid               Horde          30      634  
+ 99  Drakkin                Alliance       30      101  
+100  Drakonid               Alliance       30      634  
+101  Venthyr                Horde          30     2634  
+102  Centaur                Horde          30      267  
+103  Grummle                Alliance       31      448  
+104  Slime Giant            Horde          31      284  
+105  Gilgoblin              Horde          30      266  
+106  Mantid                 Horde          31      132  
+107  Kyrian                 Alliance       30      467  
+109  Ethereal               Alliance       31       52  
+110  Sylvari                Alliance       30       84  
+111  Sporeling              Alliance       30       68  
+112  Hozen                  Horde          30      472  
+114  Stormforged            Alliance       30      136  
+118  Elune's Chosen         Alliance       31     3350  
+119  Mo'arg                 Horde          30       74  
+120  Nerubian               Horde          30       86  
+122  Lich                   Horde          30       44  
+123  Mogu                   Alliance       30      217  
+125  Lost One               Alliance       30      136  
+
+113 races dans ChrRaces (98 jouables via CharBaseInfo)
+[01] Human                -> 01-Human  (3051 lignes DBC, 3558 fichiers, 84 manquants)
+[02] Orc                  -> 02-Orc  (3520 lignes DBC, 5818 fichiers, 116 manquants)
+[03] Dwarf                -> 03-Dwarf  (2807 lignes DBC, 2330 fichiers, 12 manquants)
+[04] Night Elf            -> 04-Night-Elf  (3983 lignes DBC, 4208 fichiers, 856 manquants)
+[05] Undead               -> 05-Undead  (2560 lignes DBC, 1907 fichiers, 18 manquants)
+[06] Tauren               -> 06-Tauren  (1221 lignes DBC, 1534 fichiers, 7 manquants)
+[07] Gnome                -> 07-Gnome  (1510 lignes DBC, 1745 fichiers, 0 manquants)
+[08] Troll                -> 08-Troll  (2413 lignes DBC, 2573 fichiers, 27 manquants)
+[09] Goblin               -> 09-Goblin  (1332 lignes DBC, 968 fichiers, 7 manquants)
+[10] Blood Elf            -> 10-Blood-Elf  (4836 lignes DBC, 6078 fichiers, 246 manquants)
+[11] Draenei              -> 11-Draenei  (2338 lignes DBC, 2984 fichiers, 85 manquants)
+[12] Zandalari Troll      -> 12-Zandalari-Troll  (3235 lignes DBC, 799 fichiers, 7 manquants)
+[13] Worgen               -> 13-Worgen  (872 lignes DBC, 1095 fichiers, 90 manquants)
+[14] High Elf             -> 14-High-Elf  (4731 lignes DBC, 6080 fichiers, 246 manquants)
+[15] Tuskarr              -> 15-Tuskarr  (199 lignes DBC, 63 fichiers, 2 manquants)
+[warn] Kul Tiran (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_KulTiran_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-KulTiranmale.blp, Interface/Icons/CoA_Race_KULTIRAN_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-KULTIRANmale.blp, Interface/Icons/CoA_Race_KulTiran.blp
+[warn] Kul Tiran (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_KulTiran_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-KulTiranfemale.blp, Interface/Icons/CoA_Race_KULTIRAN_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-KULTIRANfemale.blp, Interface/Icons/CoA_Race_KulTiran.blp
+[16] Kul Tiran            -> 16-Kul-Tiran  (413 lignes DBC, 702 fichiers, 0 manquants)
+[warn] Taunka (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Taunka_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Taunkamale.blp, Interface/Icons/CoA_Race_TAUNKA_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TAUNKAmale.blp, Interface/Icons/CoA_Race_Taunka.blp
+[warn] Taunka (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Taunka_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Taunkafemale.blp, Interface/Icons/CoA_Race_TAUNKA_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TAUNKAfemale.blp, Interface/Icons/CoA_Race_Taunka.blp
+[17] Taunka               -> 17-Taunka  (81 lignes DBC, 73 fichiers, 3 manquants)
+[18] Vrykul               -> 18-Vrykul  (156 lignes DBC, 88 fichiers, 7 manquants)
+[19] Vulpera              -> 19-Vulpera  (744 lignes DBC, 815 fichiers, 0 manquants)
+[20] Pandaren             -> 20-Pandaren  (1482 lignes DBC, 2325 fichiers, 0 manquants)
+[info] Naga : 2095 textures de remplissage CharSections vidées
+[info] Naga : custom/naga/sirus/female/snaga_female00.skin, 8 sous-maillages de base 10000 -> 0
+[info] Naga : custom/naga/sirus/male/snaga_male00.skin, 3 sous-maillages de base 10000 -> 0
+[21] Naga                 -> 21-Naga  (1725 lignes DBC, 508 fichiers, 2 manquants)
+[22] Broken               -> 22-Broken  (933 lignes DBC, 1100 fichiers, 0 manquants)
+[warn] Fel Orc (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_FelOrc_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FelOrcmale.blp, Interface/Icons/CoA_Race_FELORC_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FELORCmale.blp, Interface/Icons/CoA_Race_FelOrc.blp
+[warn] Fel Orc (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_FelOrc_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FelOrcfemale.blp, Interface/Icons/CoA_Race_FELORC_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FELORCfemale.blp, Interface/Icons/CoA_Race_FelOrc.blp
+[23] Fel Orc              -> 23-Fel-Orc  (84 lignes DBC, 260 fichiers, 10 manquants)
+[warn] Forest Troll (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_ForestTroll_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-ForestTrollmale.blp, Interface/Icons/CoA_Race_FORESTTROLL_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FORESTTROLLmale.blp, Interface/Icons/CoA_Race_ForestTroll.blp
+[warn] Forest Troll (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_ForestTroll_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-ForestTrollfemale.blp, Interface/Icons/CoA_Race_FORESTTROLL_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FORESTTROLLfemale.blp, Interface/Icons/CoA_Race_ForestTroll.blp
+[24] Forest Troll         -> 24-Forest-Troll  (314 lignes DBC, 279 fichiers, 2 manquants)
+[warn] Ice Troll (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_IceTroll_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-IceTrollmale.blp, Interface/Icons/CoA_Race_ICETROLL_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-ICETROLLmale.blp, Interface/Icons/CoA_Race_IceTroll.blp
+[warn] Ice Troll (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_IceTroll_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-IceTrollfemale.blp, Interface/Icons/CoA_Race_ICETROLL_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-ICETROLLfemale.blp, Interface/Icons/CoA_Race_IceTroll.blp
+[25] Ice Troll            -> 25-Ice-Troll  (123 lignes DBC, 77 fichiers, 2 manquants)
+[warn] Skeleton (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Skeleton_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Skeletonmale.blp, Interface/Icons/CoA_Race_SKELETON_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SKELETONmale.blp, Interface/Icons/CoA_Race_Skeleton.blp
+[warn] Skeleton (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Skeleton_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Skeletonfemale.blp, Interface/Icons/CoA_Race_SKELETON_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SKELETONfemale.blp, Interface/Icons/CoA_Race_Skeleton.blp
+[26] Skeleton             -> 26-Skeleton  (93 lignes DBC, 118 fichiers, 2 manquants)
+[27] Earthen              -> 27-Earthen  (2158 lignes DBC, 2014 fichiers, 26 manquants)
+[warn] Drakkari Troll (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_DrakkariTroll_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DrakkariTrollmale.blp, Interface/Icons/CoA_Race_DRAKKARITROLL_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DRAKKARITROLLmale.blp, Interface/Icons/CoA_Race_DrakkariTroll.blp
+[warn] Drakkari Troll (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_DrakkariTroll_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DrakkariTrollfemale.blp, Interface/Icons/CoA_Race_DRAKKARITROLL_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DRAKKARITROLLfemale.blp, Interface/Icons/CoA_Race_DrakkariTroll.blp
+[28] Drakkari Troll       -> 28-Drakkari-Troll  (393 lignes DBC, 613 fichiers, 0 manquants)
+[29] Pandaren             -> 29-Pandaren  (1445 lignes DBC, 2325 fichiers, 0 manquants)
+[30] Murloc               -> 30-Murloc  (174 lignes DBC, 228 fichiers, 0 manquants)
+[31] Murloc               -> 31-Murloc  (174 lignes DBC, 228 fichiers, 0 manquants)
+[warn] Forgotten (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Forgotten_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Forgottenmale.blp, Interface/Icons/CoA_Race_THINHUMAN_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-THINHUMANmale.blp, Interface/Icons/CoA_Race_Forgotten.blp
+[warn] Forgotten (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Forgotten_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Forgottenfemale.blp, Interface/Icons/CoA_Race_THINHUMAN_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-THINHUMANfemale.blp, Interface/Icons/CoA_Race_Forgotten.blp
+[32] Forgotten            -> 32-Forgotten  (245 lignes DBC, 101 fichiers, 0 manquants)
+[warn] Forgotten (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Forgotten_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Forgottenmale.blp, Interface/Icons/CoA_Race_THINHUMAN_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-THINHUMANmale.blp, Interface/Icons/CoA_Race_Forgotten.blp
+[warn] Forgotten (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Forgotten_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Forgottenfemale.blp, Interface/Icons/CoA_Race_THINHUMAN_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-THINHUMANfemale.blp, Interface/Icons/CoA_Race_Forgotten.blp
+[33] Forgotten            -> 33-Forgotten  (101 lignes DBC, 86 fichiers, 3 manquants)
+[warn] Fel Orc (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_FelOrc_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FelOrcmale.blp, Interface/Icons/CoA_Race_FELORC_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FELORCmale.blp, Interface/Icons/CoA_Race_FelOrc.blp
+[warn] Fel Orc (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_FelOrc_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FelOrcfemale.blp, Interface/Icons/CoA_Race_FELORC_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FELORCfemale.blp, Interface/Icons/CoA_Race_FelOrc.blp
+[34] Fel Orc              -> 34-Fel-Orc  (25 lignes DBC, 260 fichiers, 10 manquants)
+[info] Naga : 0 textures de remplissage CharSections vidées
+[35] Naga                 -> 35-Naga  (43 lignes DBC, 94 fichiers, 5 manquants)
+[36] Broken               -> 36-Broken  (64 lignes DBC, 1099 fichiers, 28 manquants)
+[warn] Skeleton (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Skeleton_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Skeletonmale.blp, Interface/Icons/CoA_Race_SKELETON_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SKELETONmale.blp, Interface/Icons/CoA_Race_Skeleton.blp
+[warn] Skeleton (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Skeleton_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Skeletonfemale.blp, Interface/Icons/CoA_Race_SKELETON_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SKELETONfemale.blp, Interface/Icons/CoA_Race_Skeleton.blp
+[37] Skeleton             -> 37-Skeleton  (34 lignes DBC, 118 fichiers, 3 manquants)
+[38] Vrykul               -> 38-Vrykul  (97 lignes DBC, 88 fichiers, 7 manquants)
+[39] Tuskarr              -> 39-Tuskarr  (138 lignes DBC, 63 fichiers, 2 manquants)
+[warn] Forest Troll (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_ForestTroll_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-ForestTrollmale.blp, Interface/Icons/CoA_Race_FORESTTROLL_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FORESTTROLLmale.blp, Interface/Icons/CoA_Race_ForestTroll.blp
+[warn] Forest Troll (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_ForestTroll_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-ForestTrollfemale.blp, Interface/Icons/CoA_Race_FORESTTROLL_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FORESTTROLLfemale.blp, Interface/Icons/CoA_Race_ForestTroll.blp
+[40] Forest Troll         -> 40-Forest-Troll  (255 lignes DBC, 279 fichiers, 2 manquants)
+[warn] Taunka (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Taunka_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Taunkamale.blp, Interface/Icons/CoA_Race_TAUNKA_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TAUNKAmale.blp, Interface/Icons/CoA_Race_Taunka.blp
+[warn] Taunka (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Taunka_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Taunkafemale.blp, Interface/Icons/CoA_Race_TAUNKA_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TAUNKAfemale.blp, Interface/Icons/CoA_Race_Taunka.blp
+[41] Taunka               -> 41-Taunka  (26 lignes DBC, 73 fichiers, 3 manquants)
+[warn] Northrend Skeleton (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_NorthrendSkeleton_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-NorthrendSkeletonmale.blp, Interface/Icons/CoA_Race_NORTHRENDSKELETON_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-NORTHRENDSKELETONmale.blp, Interface/Icons/CoA_Race_NorthrendSkeleton.blp
+[warn] Northrend Skeleton (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_NorthrendSkeleton_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-NorthrendSkeletonfemale.blp, Interface/Icons/CoA_Race_NORTHRENDSKELETON_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-NORTHRENDSKELETONfemale.blp, Interface/Icons/CoA_Race_NorthrendSkeleton.blp
+[42] Northrend Skeleton   -> 42-Northrend-Skeleton  (78 lignes DBC, 24 fichiers, 3 manquants)
+[warn] Ice Troll (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_IceTroll_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-IceTrollmale.blp, Interface/Icons/CoA_Race_ICETROLL_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-ICETROLLmale.blp, Interface/Icons/CoA_Race_IceTroll.blp
+[warn] Ice Troll (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_IceTroll_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-IceTrollfemale.blp, Interface/Icons/CoA_Race_ICETROLL_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-ICETROLLfemale.blp, Interface/Icons/CoA_Race_IceTroll.blp
+[43] Ice Troll            -> 43-Ice-Troll  (64 lignes DBC, 77 fichiers, 2 manquants)
+[warn] Drakkari Troll (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_DrakkariTroll_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DrakkariTrollmale.blp, Interface/Icons/CoA_Race_DRAKKARITROLL_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DRAKKARITROLLmale.blp, Interface/Icons/CoA_Race_DrakkariTroll.blp
+[warn] Drakkari Troll (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_DrakkariTroll_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DrakkariTrollfemale.blp, Interface/Icons/CoA_Race_DRAKKARITROLL_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DRAKKARITROLLfemale.blp, Interface/Icons/CoA_Race_DrakkariTroll.blp
+[44] Drakkari Troll       -> 44-Drakkari-Troll  (334 lignes DBC, 613 fichiers, 0 manquants)
+[warn] Leper Troll (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_LeperTroll_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-LeperTrollmale.blp, Interface/Icons/CoA_Race_LEPERTROLL_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-LEPERTROLLmale.blp, Interface/Icons/CoA_Race_LeperTroll.blp
+[warn] Leper Troll (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_LeperTroll_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-LeperTrollfemale.blp, Interface/Icons/CoA_Race_LEPERTROLL_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-LEPERTROLLfemale.blp, Interface/Icons/CoA_Race_LeperTroll.blp
+[45] Leper Troll          -> 45-Leper-Troll  (218 lignes DBC, 378 fichiers, 1 manquants)
+[warn] Troglodyte (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Troglodyte_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Troglodytemale.blp, Interface/Icons/CoA_Race_TROGLODYTE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TROGLODYTEmale.blp, Interface/Icons/CoA_Race_Troglodyte.blp
+[warn] Troglodyte (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Troglodyte_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Troglodytefemale.blp, Interface/Icons/CoA_Race_TROGLODYTE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TROGLODYTEfemale.blp, Interface/Icons/CoA_Race_Troglodyte.blp
+[46] Troglodyte           -> 46-Troglodyte  (188 lignes DBC, 37 fichiers, 2 manquants)
+[warn] Alpha Worgen (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_AlphaWorgen_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-AlphaWorgenmale.blp, Interface/Icons/CoA_Race_WORGENA_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-WORGENAmale.blp, Interface/Icons/CoA_Race_AlphaWorgen.blp
+[warn] Alpha Worgen (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_AlphaWorgen_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-AlphaWorgenfemale.blp, Interface/Icons/CoA_Race_WORGENA_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-WORGENAfemale.blp, Interface/Icons/CoA_Race_AlphaWorgen.blp
+[47] Alpha Worgen         -> 47-Alpha-Worgen  (1203 lignes DBC, 868 fichiers, 0 manquants)
+[48] Dark Iron Dwarf      -> 48-Dark-Iron-Dwarf  (1020 lignes DBC, 511 fichiers, 0 manquants)
+[warn] Mag'har Orc (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_MagharOrc_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-MagharOrcmale.blp, Interface/Icons/CoA_Race_MAGHAR_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-MAGHARmale.blp, Interface/Icons/CoA_Race_MagharOrc.blp
+[warn] Mag'har Orc (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_MagharOrc_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-MagharOrcfemale.blp, Interface/Icons/CoA_Race_MAGHAR_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-MAGHARfemale.blp, Interface/Icons/CoA_Race_MagharOrc.blp
+[49] Mag'har Orc          -> 49-Mag-har-Orc  (3462 lignes DBC, 5818 fichiers, 116 manquants)
+[50] Furbolg              -> 50-Furbolg  (237 lignes DBC, 51 fichiers, 0 manquants)
+[warn] Undead Gnome (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_UndeadGnome_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-UndeadGnomemale.blp, Interface/Icons/CoA_Race_GNOMEUNDEAD_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-GNOMEUNDEADmale.blp, Interface/Icons/CoA_Race_UndeadGnome.blp
+[warn] Undead Gnome (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_UndeadGnome_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-UndeadGnomefemale.blp, Interface/Icons/CoA_Race_GNOMEUNDEAD_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-GNOMEUNDEADfemale.blp, Interface/Icons/CoA_Race_UndeadGnome.blp
+[51] Undead Gnome         -> 51-Undead-Gnome  (1298 lignes DBC, 2469 fichiers, 0 manquants)
+[52] Orc                  -> 52-Orc  (1084 lignes DBC, 1659 fichiers, 0 manquants)
+[53] Ogre                 -> 53-Ogre  (163 lignes DBC, 608 fichiers, 0 manquants)
+[warn] Dracthyr (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Dracthyr_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Dracthyrmale.blp, Interface/Icons/CoA_Race_DRACTHYR_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DRACTHYRmale.blp, Interface/Icons/CoA_Race_Dracthyr.blp
+[warn] Dracthyr (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Dracthyr_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Dracthyrfemale.blp, Interface/Icons/CoA_Race_DRACTHYR_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DRACTHYRfemale.blp, Interface/Icons/CoA_Race_Dracthyr.blp
+[54] Dracthyr             -> 54-Dracthyr  (143839 lignes DBC, 7181 fichiers, 2 manquants)
+[55] Eredar               -> 55-Eredar  (63972 lignes DBC, 974 fichiers, 0 manquants)
+[warn] Harpy (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Harpy_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Harpymale.blp, Interface/Icons/CoA_Race_HARPY_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-HARPYmale.blp, Interface/Icons/CoA_Race_Harpy.blp
+[warn] Harpy (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Harpy_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Harpyfemale.blp, Interface/Icons/CoA_Race_HARPY_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-HARPYfemale.blp, Interface/Icons/CoA_Race_Harpy.blp
+[56] Harpy                -> 56-Harpy  (132 lignes DBC, 41 fichiers, 0 manquants)
+[warn] Alpha Goblin (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_AlphaGoblin_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-AlphaGoblinmale.blp, Interface/Icons/CoA_Race_GOBLINA_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-GOBLINAmale.blp, Interface/Icons/CoA_Race_AlphaGoblin.blp
+[warn] Alpha Goblin (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_AlphaGoblin_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-AlphaGoblinfemale.blp, Interface/Icons/CoA_Race_GOBLINA_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-GOBLINAfemale.blp, Interface/Icons/CoA_Race_AlphaGoblin.blp
+[57] Alpha Goblin         -> 57-Alpha-Goblin  (1466 lignes DBC, 92 fichiers, 0 manquants)
+[warn] Dracthyr (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Dracthyr_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Dracthyrmale.blp, Interface/Icons/CoA_Race_DRACTHYR_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DRACTHYRmale.blp, Interface/Icons/CoA_Race_Dracthyr.blp
+[warn] Dracthyr (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Dracthyr_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Dracthyrfemale.blp, Interface/Icons/CoA_Race_DRACTHYR_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DRACTHYRfemale.blp, Interface/Icons/CoA_Race_Dracthyr.blp
+[58] Dracthyr             -> 58-Dracthyr  (143834 lignes DBC, 7181 fichiers, 2 manquants)
+[59] Void Elf             -> 59-Void-Elf  (4893 lignes DBC, 367 fichiers, 0 manquants)
+[warn] Illidari Blood Elf (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_IllidariBloodElf_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-IllidariBloodElfmale.blp, Interface/Icons/CoA_Race_BLOODELF_DH_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-BLOODELF_DHmale.blp, Interface/Icons/CoA_Race_IllidariBloodElf.blp
+[warn] Illidari Blood Elf (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_IllidariBloodElf_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-IllidariBloodElffemale.blp, Interface/Icons/CoA_Race_BLOODELF_DH_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-BLOODELF_DHfemale.blp, Interface/Icons/CoA_Race_IllidariBloodElf.blp
+[60] Illidari Blood Elf   -> 60-Illidari-Blood-Elf  (7629 lignes DBC, 1143 fichiers, 0 manquants)
+[warn] Illidari Night Elf (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_IllidariNightElf_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-IllidariNightElfmale.blp, Interface/Icons/CoA_Race_NIGHTELF_DH_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-NIGHTELF_DHmale.blp, Interface/Icons/CoA_Race_IllidariNightElf.blp
+[warn] Illidari Night Elf (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_IllidariNightElf_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-IllidariNightElffemale.blp, Interface/Icons/CoA_Race_NIGHTELF_DH_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-NIGHTELF_DHfemale.blp, Interface/Icons/CoA_Race_IllidariNightElf.blp
+[61] Illidari Night Elf   -> 61-Illidari-Night-Elf  (7042 lignes DBC, 1244 fichiers, 0 manquants)
+[warn] Lightforged Draenei (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_LightforgedDraenei_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-LightforgedDraeneimale.blp, Interface/Icons/CoA_Race_LIGHTFORGED_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-LIGHTFORGEDmale.blp, Interface/Icons/CoA_Race_LightforgedDraenei.blp
+[warn] Lightforged Draenei (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_LightforgedDraenei_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-LightforgedDraeneifemale.blp, Interface/Icons/CoA_Race_LIGHTFORGED_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-LIGHTFORGEDfemale.blp, Interface/Icons/CoA_Race_LightforgedDraenei.blp
+[62] Lightforged Draenei  -> 62-Lightforged-Draenei  (67550 lignes DBC, 979 fichiers, 0 manquants)
+[63] Nightborne           -> 63-Nightborne  (88632 lignes DBC, 1135 fichiers, 0 manquants)
+[warn] Test Race (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_TestRace_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TestRacemale.blp, Interface/Icons/CoA_Race_TESTRACE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TESTRACEmale.blp, Interface/Icons/CoA_Race_TestRace.blp
+[warn] Test Race (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_TestRace_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TestRacefemale.blp, Interface/Icons/CoA_Race_TESTRACE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TESTRACEfemale.blp, Interface/Icons/CoA_Race_TestRace.blp
+[65] Test Race            -> 65-Test-Race  (3378 lignes DBC, 3558 fichiers, 84 manquants)
+[warn] Highmountain Tauren (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_HighmountainTauren_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-HighmountainTaurenmale.blp, Interface/Icons/CoA_Race_HIGHMOUNTAINTAUREN_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-HIGHMOUNTAINTAURENmale.blp, Interface/Icons/CoA_Race_HighmountainTauren.blp
+[warn] Highmountain Tauren (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_HighmountainTauren_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-HighmountainTaurenfemale.blp, Interface/Icons/CoA_Race_HIGHMOUNTAINTAUREN_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-HIGHMOUNTAINTAURENfemale.blp, Interface/Icons/CoA_Race_HighmountainTauren.blp
+[66] Highmountain Tauren  -> 66-Highmountain-Tauren  (1519 lignes DBC, 2771 fichiers, 0 manquants)
+[67] Mechagnome           -> 67-Mechagnome  (67440 lignes DBC, 1416 fichiers, 0 manquants)
+[68] Earthen              -> 68-Earthen  (482 lignes DBC, 702 fichiers, 0 manquants)
+[69] Earthen              -> 69-Earthen  (477 lignes DBC, 702 fichiers, 0 manquants)
+[70] Haranir              -> 70-Haranir  (121 lignes DBC, 12 fichiers, 0 manquants)
+[71] Haranir              -> 71-Haranir  (126 lignes DBC, 12 fichiers, 0 manquants)
+[warn] Windshaper Skyborne (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_WindshaperSkyborne_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-WindshaperSkybornemale.blp, Interface/Icons/CoA_Race_SKYBORNEHORDE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SKYBORNEHORDEmale.blp, Interface/Icons/CoA_Race_WindshaperSkyborne.blp
+[warn] Windshaper Skyborne (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_WindshaperSkyborne_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-WindshaperSkybornefemale.blp, Interface/Icons/CoA_Race_SKYBORNEHORDE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SKYBORNEHORDEfemale.blp, Interface/Icons/CoA_Race_WindshaperSkyborne.blp
+[72] Windshaper Skyborne  -> 72-Windshaper-Skyborne  (311 lignes DBC, 0 fichiers, 116 manquants)
+[74] Vulpera              -> 74-Vulpera  (121 lignes DBC, 14 fichiers, 0 manquants)
+[75] Centaur              -> 75-Centaur  (387 lignes DBC, 71 fichiers, 1 manquants)
+[warn] High Order Skyborne (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_HighOrderSkyborne_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-HighOrderSkybornemale.blp, Interface/Icons/CoA_Race_SKYBORNE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SKYBORNEmale.blp, Interface/Icons/CoA_Race_HighOrderSkyborne.blp
+[warn] High Order Skyborne (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_HighOrderSkyborne_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-HighOrderSkybornefemale.blp, Interface/Icons/CoA_Race_SKYBORNE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SKYBORNEfemale.blp, Interface/Icons/CoA_Race_HighOrderSkyborne.blp
+[77] High Order Skyborne  -> 77-High-Order-Skyborne  (316 lignes DBC, 0 fichiers, 116 manquants)
+[78] Jinyu                -> 78-Jinyu  (171 lignes DBC, 139 fichiers, 2 manquants)
+[79] Arakkoa              -> 79-Arakkoa  (975 lignes DBC, 882 fichiers, 2 manquants)
+[80] Darkfallen           -> 80-Darkfallen  (2167 lignes DBC, 1071 fichiers, 26 manquants)
+[81] Darkfallen           -> 81-Darkfallen  (2162 lignes DBC, 1071 fichiers, 26 manquants)
+[82] Sethrak              -> 82-Sethrak  (159 lignes DBC, 13 fichiers, 0 manquants)
+[83] Gnoll                -> 83-Gnoll  (19720 lignes DBC, 4 fichiers, 0 manquants)
+[warn] Two-Headed Ogre (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_TwoHeadedOgre_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TwoHeadedOgremale.blp, Interface/Icons/CoA_Race_OGRE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-OGREmale.blp, Interface/Icons/CoA_Race_TwoHeadedOgre.blp
+[warn] Two-Headed Ogre (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_TwoHeadedOgre_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TwoHeadedOgrefemale.blp, Interface/Icons/CoA_Race_OGRE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-OGREfemale.blp, Interface/Icons/CoA_Race_TwoHeadedOgre.blp
+[85] Two-Headed Ogre      -> 85-Two-Headed-Ogre  (536 lignes DBC, 416 fichiers, 2 manquants)
+[warn] Sureki (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Sureki_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Surekimale.blp, Interface/Icons/CoA_Race_SUREKIALLIANCE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SUREKIALLIANCEmale.blp, Interface/Icons/CoA_Race_Sureki.blp
+[warn] Sureki (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Sureki_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Surekifemale.blp, Interface/Icons/CoA_Race_SUREKIALLIANCE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SUREKIALLIANCEfemale.blp, Interface/Icons/CoA_Race_Sureki.blp
+[86] Sureki               -> 86-Sureki  (285 lignes DBC, 319 fichiers, 0 manquants)
+[warn] Faceless One (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_FacelessOne_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FacelessOnemale.blp, Interface/Icons/CoA_Race_FACELESSHORDE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FACELESSHORDEmale.blp, Interface/Icons/CoA_Race_FacelessOne.blp
+[warn] Faceless One (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_FacelessOne_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FacelessOnefemale.blp, Interface/Icons/CoA_Race_FACELESSHORDE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FACELESSHORDEfemale.blp, Interface/Icons/CoA_Race_FacelessOne.blp
+[87] Faceless One         -> 87-Faceless-One  (185 lignes DBC, 49 fichiers, 1 manquants)
+[warn] Qiraji (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Qiraji_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Qirajimale.blp, Interface/Icons/CoA_Race_QIRAJIHORDE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-QIRAJIHORDEmale.blp, Interface/Icons/CoA_Race_Qiraji.blp
+[warn] Qiraji (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Qiraji_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Qirajifemale.blp, Interface/Icons/CoA_Race_QIRAJIHORDE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-QIRAJIHORDEfemale.blp, Interface/Icons/CoA_Race_Qiraji.blp
+[88] Qiraji               -> 88-Qiraji  (210 lignes DBC, 27 fichiers, 0 manquants)
+[warn] Dreadlord (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Dreadlord_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Dreadlordmale.blp, Interface/Icons/CoA_Race_DREADLORDHORDE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DREADLORDHORDEmale.blp, Interface/Icons/CoA_Race_Dreadlord.blp
+[warn] Dreadlord (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Dreadlord_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Dreadlordfemale.blp, Interface/Icons/CoA_Race_DREADLORDHORDE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DREADLORDHORDEfemale.blp, Interface/Icons/CoA_Race_Dreadlord.blp
+[89] Dreadlord            -> 89-Dreadlord  (171 lignes DBC, 27 fichiers, 0 manquants)
+[warn] Banshee (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Banshee_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Bansheemale.blp, Interface/Icons/CoA_Race_BANSHEEHORDE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-BANSHEEHORDEmale.blp, Interface/Icons/CoA_Race_Banshee.blp
+[warn] Banshee (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Banshee_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Bansheefemale.blp, Interface/Icons/CoA_Race_BANSHEEHORDE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-BANSHEEHORDEfemale.blp, Interface/Icons/CoA_Race_Banshee.blp
+[90] Banshee              -> 90-Banshee  (206 lignes DBC, 43 fichiers, 1 manquants)
+[warn] Titan (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Titan_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Titanmale.blp, Interface/Icons/CoA_Race_TITANALLIANCE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TITANALLIANCEmale.blp, Interface/Icons/CoA_Race_Titan.blp
+[warn] Titan (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Titan_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Titanfemale.blp, Interface/Icons/CoA_Race_TITANALLIANCE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TITANALLIANCEfemale.blp, Interface/Icons/CoA_Race_Titan.blp
+[91] Titan                -> 91-Titan  (212 lignes DBC, 68 fichiers, 0 manquants)
+[warn] Wretched (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Wretched_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Wretchedmale.blp, Interface/Icons/CoA_Race_WRETCHEDHORDE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-WRETCHEDHORDEmale.blp, Interface/Icons/CoA_Race_Wretched.blp
+[warn] Wretched (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Wretched_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Wretchedfemale.blp, Interface/Icons/CoA_Race_WRETCHEDHORDE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-WRETCHEDHORDEfemale.blp, Interface/Icons/CoA_Race_Wretched.blp
+[92] Wretched             -> 92-Wretched  (547 lignes DBC, 233 fichiers, 0 manquants)
+[warn] Fungarian (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Fungarian_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Fungarianmale.blp, Interface/Icons/CoA_Race_FUNGARIANALLIANCE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FUNGARIANALLIANCEmale.blp, Interface/Icons/CoA_Race_Fungarian.blp
+[warn] Fungarian (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Fungarian_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Fungarianfemale.blp, Interface/Icons/CoA_Race_FUNGARIANALLIANCE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-FUNGARIANALLIANCEfemale.blp, Interface/Icons/CoA_Race_Fungarian.blp
+[93] Fungarian            -> 93-Fungarian  (657 lignes DBC, 114 fichiers, 0 manquants)
+[warn] Snagtooth (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Snagtooth_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Snagtoothmale.blp, Interface/Icons/CoA_Race_SNAGTOOTH_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SNAGTOOTHmale.blp, Interface/Icons/CoA_Race_Snagtooth.blp
+[warn] Snagtooth (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Snagtooth_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Snagtoothfemale.blp, Interface/Icons/CoA_Race_SNAGTOOTH_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SNAGTOOTHfemale.blp, Interface/Icons/CoA_Race_Snagtooth.blp
+[94] Snagtooth            -> 94-Snagtooth  (216 lignes DBC, 25 fichiers, 2 manquants)
+[warn] The Twins (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_TheTwins_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TheTwinsmale.blp, Interface/Icons/CoA_Race_THINHUMAN_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-THINHUMANmale.blp, Interface/Icons/CoA_Race_TheTwins.blp
+[warn] The Twins (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_TheTwins_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-TheTwinsfemale.blp, Interface/Icons/CoA_Race_THINHUMAN_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-THINHUMANfemale.blp, Interface/Icons/CoA_Race_TheTwins.blp
+[96] The Twins            -> 96-The-Twins  (286 lignes DBC, 32 fichiers, 0 manquants)
+[warn] Saberon (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Saberon_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Saberonmale.blp, Interface/Icons/CoA_Race_SABERONHORDE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SABERONHORDEmale.blp, Interface/Icons/CoA_Race_Saberon.blp
+[warn] Saberon (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Saberon_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Saberonfemale.blp, Interface/Icons/CoA_Race_SABERONHORDE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SABERONHORDEfemale.blp, Interface/Icons/CoA_Race_Saberon.blp
+[97] Saberon              -> 97-Saberon  (239 lignes DBC, 8 fichiers, 0 manquants)
+[warn] Drakonid (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Drakonid_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Drakonidmale.blp, Interface/Icons/CoA_Race_DRAKONIDHORDE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DRAKONIDHORDEmale.blp, Interface/Icons/CoA_Race_Drakonid.blp
+[warn] Drakonid (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Drakonid_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Drakonidfemale.blp, Interface/Icons/CoA_Race_DRAKONIDHORDE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DRAKONIDHORDEfemale.blp, Interface/Icons/CoA_Race_Drakonid.blp
+[98] Drakonid             -> 98-Drakonid  (746 lignes DBC, 166 fichiers, 2 manquants)
+[99] Drakkin              -> 99-Drakkin  (221 lignes DBC, 181 fichiers, 2 manquants)
+[warn] Drakonid (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Drakonid_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Drakonidmale.blp, Interface/Icons/CoA_Race_DRAKONIDALLIANCE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DRAKONIDALLIANCEmale.blp, Interface/Icons/CoA_Race_Drakonid.blp
+[warn] Drakonid (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Drakonid_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Drakonidfemale.blp, Interface/Icons/CoA_Race_DRAKONIDALLIANCE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-DRAKONIDALLIANCEfemale.blp, Interface/Icons/CoA_Race_Drakonid.blp
+[100] Drakonid             -> 100-Drakonid  (751 lignes DBC, 166 fichiers, 2 manquants)
+[warn] Venthyr (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Venthyr_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Venthyrmale.blp, Interface/Icons/CoA_Race_VENTHYRHORDE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-VENTHYRHORDEmale.blp, Interface/Icons/CoA_Race_Venthyr.blp
+[warn] Venthyr (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Venthyr_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Venthyrfemale.blp, Interface/Icons/CoA_Race_VENTHYRHORDE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-VENTHYRHORDEfemale.blp, Interface/Icons/CoA_Race_Venthyr.blp
+[101] Venthyr              -> 101-Venthyr  (2829 lignes DBC, 53 fichiers, 1 manquants)
+[102] Centaur              -> 102-Centaur  (387 lignes DBC, 71 fichiers, 1 manquants)
+[warn] Grummle (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Grummle_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Grummlemale.blp, Interface/Icons/CoA_Race_GRUMMLE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-GRUMMLEmale.blp, Interface/Icons/CoA_Race_Grummle.blp
+[warn] Grummle (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Grummle_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Grummlefemale.blp, Interface/Icons/CoA_Race_GRUMMLE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-GRUMMLEfemale.blp, Interface/Icons/CoA_Race_Grummle.blp
+[103] Grummle              -> 103-Grummle  (600 lignes DBC, 184 fichiers, 1 manquants)
+[warn] Slime Giant (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_SlimeGiant_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SlimeGiantmale.blp, Interface/Icons/CoA_Race_SLIMEGIANTHORDE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SLIMEGIANTHORDEmale.blp, Interface/Icons/CoA_Race_SlimeGiant.blp
+[warn] Slime Giant (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_SlimeGiant_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SlimeGiantfemale.blp, Interface/Icons/CoA_Race_SLIMEGIANTHORDE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SLIMEGIANTHORDEfemale.blp, Interface/Icons/CoA_Race_SlimeGiant.blp
+[104] Slime Giant          -> 104-Slime-Giant  (396 lignes DBC, 69 fichiers, 3 manquants)
+[warn] Gilgoblin (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Gilgoblin_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Gilgoblinmale.blp, Interface/Icons/CoA_Race_UNSHACKLED_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-UNSHACKLEDmale.blp, Interface/Icons/CoA_Race_Gilgoblin.blp
+[warn] Gilgoblin (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Gilgoblin_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Gilgoblinfemale.blp, Interface/Icons/CoA_Race_UNSHACKLED_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-UNSHACKLEDfemale.blp, Interface/Icons/CoA_Race_Gilgoblin.blp
+[105] Gilgoblin            -> 105-Gilgoblin  (391 lignes DBC, 159 fichiers, 0 manquants)
+[warn] Mantid (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Mantid_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Mantidmale.blp, Interface/Icons/CoA_Race_MANTIDHORDE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-MANTIDHORDEmale.blp, Interface/Icons/CoA_Race_Mantid.blp
+[warn] Mantid (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Mantid_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Mantidfemale.blp, Interface/Icons/CoA_Race_MANTIDHORDE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-MANTIDHORDEfemale.blp, Interface/Icons/CoA_Race_Mantid.blp
+[106] Mantid               -> 106-Mantid  (244 lignes DBC, 20 fichiers, 2 manquants)
+[107] Kyrian               -> 107-Kyrian  (613 lignes DBC, 7 fichiers, 1 manquants)
+[warn] Ethereal (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Ethereal_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Etherealmale.blp, Interface/Icons/CoA_Race_ETHEREALALLIANCE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-ETHEREALALLIANCEmale.blp, Interface/Icons/CoA_Race_Ethereal.blp
+[warn] Ethereal (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Ethereal_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Etherealfemale.blp, Interface/Icons/CoA_Race_ETHEREALALLIANCE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-ETHEREALALLIANCEfemale.blp, Interface/Icons/CoA_Race_Ethereal.blp
+[109] Ethereal             -> 109-Ethereal  (164 lignes DBC, 25 fichiers, 2 manquants)
+[warn] Sylvari (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Sylvari_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Sylvarimale.blp, Interface/Icons/CoA_Race_SYLVARIALLIANCE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SYLVARIALLIANCEmale.blp, Interface/Icons/CoA_Race_Sylvari.blp
+[warn] Sylvari (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Sylvari_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Sylvarifemale.blp, Interface/Icons/CoA_Race_SYLVARIALLIANCE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SYLVARIALLIANCEfemale.blp, Interface/Icons/CoA_Race_Sylvari.blp
+[110] Sylvari              -> 110-Sylvari  (203 lignes DBC, 83 fichiers, 4 manquants)
+[warn] Sporeling (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Sporeling_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Sporelingmale.blp, Interface/Icons/CoA_Race_SPORELINGALLIANCE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SPORELINGALLIANCEmale.blp, Interface/Icons/CoA_Race_Sporeling.blp
+[warn] Sporeling (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Sporeling_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Sporelingfemale.blp, Interface/Icons/CoA_Race_SPORELINGALLIANCE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-SPORELINGALLIANCEfemale.blp, Interface/Icons/CoA_Race_Sporeling.blp
+[111] Sporeling            -> 111-Sporeling  (184 lignes DBC, 20 fichiers, 0 manquants)
+[warn] Hozen (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Hozen_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Hozenmale.blp, Interface/Icons/CoA_Race_HOZENALLIANCE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-HOZENALLIANCEmale.blp, Interface/Icons/CoA_Race_Hozen.blp
+[warn] Hozen (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Hozen_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Hozenfemale.blp, Interface/Icons/CoA_Race_HOZENALLIANCE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-HOZENALLIANCEfemale.blp, Interface/Icons/CoA_Race_Hozen.blp
+[112] Hozen                -> 112-Hozen  (583 lignes DBC, 42 fichiers, 3 manquants)
+[warn] Stormforged (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Stormforged_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Stormforgedmale.blp, Interface/Icons/CoA_Race_STORMFORGEDALLIANCE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-STORMFORGEDALLIANCEmale.blp, Interface/Icons/CoA_Race_Stormforged.blp
+[warn] Stormforged (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Stormforged_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Stormforgedfemale.blp, Interface/Icons/CoA_Race_STORMFORGEDALLIANCE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-STORMFORGEDALLIANCEfemale.blp, Interface/Icons/CoA_Race_Stormforged.blp
+[114] Stormforged          -> 114-Stormforged  (272 lignes DBC, 116 fichiers, 0 manquants)
+[warn] Elune's Chosen (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_ElunesChosen_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-ElunesChosenmale.blp, Interface/Icons/CoA_Race_ELUNEALLIANCE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-ELUNEALLIANCEmale.blp, Interface/Icons/CoA_Race_ElunesChosen.blp
+[warn] Elune's Chosen (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_ElunesChosen_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-ElunesChosenfemale.blp, Interface/Icons/CoA_Race_ELUNEALLIANCE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-ELUNEALLIANCEfemale.blp, Interface/Icons/CoA_Race_ElunesChosen.blp
+[118] Elune's Chosen       -> 118-Elune-s-Chosen  (3966 lignes DBC, 1481 fichiers, 0 manquants)
+[warn] Mo'arg (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Moarg_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Moargmale.blp, Interface/Icons/CoA_Race_MOARGHORDE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-MOARGHORDEmale.blp, Interface/Icons/CoA_Race_Moarg.blp
+[warn] Mo'arg (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Moarg_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Moargfemale.blp, Interface/Icons/CoA_Race_MOARGHORDE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-MOARGHORDEfemale.blp, Interface/Icons/CoA_Race_Moarg.blp
+[119] Mo'arg               -> 119-Mo-arg  (185 lignes DBC, 89 fichiers, 0 manquants)
+[warn] Nerubian (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Nerubian_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Nerubianmale.blp, Interface/Icons/CoA_Race_NERUBIANHORDE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-NERUBIANHORDEmale.blp, Interface/Icons/CoA_Race_Nerubian.blp
+[warn] Nerubian (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Nerubian_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Nerubianfemale.blp, Interface/Icons/CoA_Race_NERUBIANHORDE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-NERUBIANHORDEfemale.blp, Interface/Icons/CoA_Race_Nerubian.blp
+[120] Nerubian             -> 120-Nerubian  (203 lignes DBC, 60 fichiers, 0 manquants)
+[warn] Lich (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Lich_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Lichmale.blp, Interface/Icons/CoA_Race_LICHHORDE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-LICHHORDEmale.blp, Interface/Icons/CoA_Race_Lich.blp
+[warn] Lich (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Lich_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Lichfemale.blp, Interface/Icons/CoA_Race_LICHHORDE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-LICHHORDEfemale.blp, Interface/Icons/CoA_Race_Lich.blp
+[122] Lich                 -> 122-Lich  (167 lignes DBC, 42 fichiers, 0 manquants)
+[warn] Mogu (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Mogu_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Mogumale.blp, Interface/Icons/CoA_Race_MOGUALLIANCE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-MOGUALLIANCEmale.blp, Interface/Icons/CoA_Race_Mogu.blp
+[warn] Mogu (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_Mogu_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-Mogufemale.blp, Interface/Icons/CoA_Race_MOGUALLIANCE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-MOGUALLIANCEfemale.blp, Interface/Icons/CoA_Race_Mogu.blp
+[123] Mogu                 -> 123-Mogu  (352 lignes DBC, 97 fichiers, 0 manquants)
+[warn] Lost One (male) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_LostOne_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-LostOnemale.blp, Interface/Icons/CoA_Race_LOSTONEALLIANCE_male.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-LOSTONEALLIANCEmale.blp, Interface/Icons/CoA_Race_LostOne.blp
+[warn] Lost One (female) : portrait introuvable dans la source ; recherché : Interface/Icons/CoA_Race_LostOne_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-LostOnefemale.blp, Interface/Icons/CoA_Race_LOSTONEALLIANCE_female.blp, Interface/Glues/CharacterCreate/UI-CharacterCreate-LOSTONEALLIANCEfemale.blp, Interface/Icons/CoA_Race_LostOne.blp
+[125] Lost One             -> 125-Lost-One  (252 lignes DBC, 35 fichiers, 0 manquants)
+
+OK -> D:\repo\reforge-allies\03-Races

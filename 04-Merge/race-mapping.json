@@ -1,0 +1,514 @@
+{
+  "races": [
+    {
+      "name": "High Elf",
+      "source": 14,
+      "target": 23,
+      "faction": "Alliance",
+      "token": "HIGH_ELF",
+      "classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "male_display": 57681,
+      "female_display": 57680,
+      "esteria_token": "BLOODELF",
+      "rows": {
+        "CharSections": 1067,
+        "CharHairGeosets": 36,
+        "CharacterFacialHairStyles": 21,
+        "CharStartOutfit": 18
+      },
+      "appearance_textures": [
+        "Character/HighElf/Female/BloodElfFemaleEyeGlowGreen.blp",
+        "Character/HighElf/Male/BloodElfFemaleEyeGlowGreen.blp"
+      ],
+      "folder": "14-High-Elf",
+      "slot": 7
+    },
+    {
+      "name": "Broken",
+      "source": 22,
+      "target": 14,
+      "faction": "Horde",
+      "token": "BROKEN",
+      "classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "male_display": 977439,
+      "female_display": 977440,
+      "esteria_token": "BROKEN",
+      "rows": {
+        "CharSections": 831,
+        "CharHairGeosets": 30,
+        "CharacterFacialHairStyles": 15,
+        "CharStartOutfit": 18
+      },
+      "appearance_textures": [],
+      "folder": "22-Broken",
+      "replaced_race": "Roué",
+      "slot": 20
+    },
+    {
+      "name": "Goblin",
+      "source": 9,
+      "target": 9,
+      "faction": "Horde",
+      "token": "GOBLIN",
+      "classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "male_display": 6894,
+      "female_display": 6895,
+      "esteria_token": "GOBLIN",
+      "rows": {
+        "CharSections": 1028,
+        "CharHairGeosets": 35,
+        "CharacterFacialHairStyles": 50,
+        "CharStartOutfit": 18,
+        "SkillLineAbility": 2,
+        "SkillRaceClassInfo": 0
+      },
+      "appearance_textures": [],
+      "folder": "09-Goblin",
+      "replaced_race": "Gobelin",
+      "slot": 16
+    },
+    {
+      "name": "Worgen",
+      "source": 13,
+      "target": 22,
+      "faction": "Alliance",
+      "token": "WORGEN",
+      "classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "male_display": 142817,
+      "female_display": 142818,
+      "esteria_token": "WORGEN",
+      "rows": {
+        "CharSections": 741,
+        "CharHairGeosets": 28,
+        "CharacterFacialHairStyles": 36,
+        "CharStartOutfit": 18,
+        "SkillRaceClassInfo": 0
+      },
+      "appearance_textures": [],
+      "folder": "13-Worgen",
+      "slot": 6
+    },
+    {
+      "name": "Pandaren",
+      "source": 20,
+      "target": 25,
+      "faction": "Alliance",
+      "token": "PANDAREN",
+      "classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "male_display": 977437,
+      "female_display": 977438,
+      "esteria_token": "PANDAREN",
+      "rows": {
+        "CharSections": 1387,
+        "CharHairGeosets": 28,
+        "CharacterFacialHairStyles": 10,
+        "CharStartOutfit": 18
+      },
+      "appearance_textures": [],
+      "folder": "20-Pandaren",
+      "slot": 9
+    },
+    {
+      "name": "Naga",
+      "source": 21,
+      "target": 13,
+      "faction": "Horde",
+      "token": "NAGA_",
+      "classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "male_display": 977511,
+      "female_display": 977512,
+      "esteria_token": "NAGA_",
+      "rows": {
+        "CharSections": 1315,
+        "CharHairGeosets": 10,
+        "CharacterFacialHairStyles": 336,
+        "CharStartOutfit": 18,
+        "SkillRaceClassInfo": 0
+      },
+      "appearance_textures": [],
+      "folder": "21-Naga",
+      "replaced_race": "Naga",
+      "slot": 19
+    },
+    {
+      "name": "Zandalari Troll",
+      "source": 12,
+      "target": 31,
+      "faction": "Horde",
+      "token": "ZANDALARI_TROLL",
+      "classes": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "male_display": 141225,
+      "female_display": 141226,
+      "esteria_token": "ZANDALARI TROLL",
+      "rows": {
+        "CharSections": 2832,
+        "CharHairGeosets": 22,
+        "CharacterFacialHairStyles": 315,
+        "CharStartOutfit": 14,
+        "SkillLineAbility": 2,
+        "SkillRaceClassInfo": 0
+      },
+      "appearance_textures": [],
+      "folder": "12-Zandalari-Troll",
+      "slot": 27
+    },
+    {
+      "name": "Forest Troll",
+      "source": 24,
+      "target": 18,
+      "faction": "Horde",
+      "token": "FOREST_TROLL",
+      "classes": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "male_display": 977388,
+      "female_display": 977389,
+      "esteria_token": "FORESTTROLL",
+      "rows": {
+        "CharSections": 243,
+        "CharHairGeosets": 21,
+        "CharacterFacialHairStyles": 17,
+        "CharStartOutfit": 14,
+        "SkillRaceClassInfo": 0
+      },
+      "appearance_textures": [],
+      "folder": "24-Forest-Troll",
+      "replaced_race": "Troll des forêts",
+      "slot": 21
+    },
+    {
+      "name": "Ice Troll",
+      "source": 25,
+      "target": 21,
+      "faction": "Horde",
+      "token": "ICE_TROLL",
+      "classes": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "male_display": 977388,
+      "female_display": 977389,
+      "esteria_token": "ICETROLL",
+      "rows": {
+        "CharSections": 243,
+        "CharHairGeosets": 21,
+        "CharacterFacialHairStyles": 17,
+        "CharStartOutfit": 14,
+        "SkillRaceClassInfo": 0
+      },
+      "appearance_textures": [],
+      "folder": "25-Ice-Troll",
+      "replaced_race": "Troll des glaces",
+      "slot": 22
+    },
+    {
+      "name": "Drakkari Troll",
+      "source": 28,
+      "target": 26,
+      "faction": "Horde",
+      "token": "DRAKKARI_TROLL",
+      "classes": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "male_display": 977388,
+      "female_display": 977389,
+      "esteria_token": "DRAKKARITROLL",
+      "rows": {
+        "CharSections": 291,
+        "CharHairGeosets": 21,
+        "CharacterFacialHairStyles": 17,
+        "CharStartOutfit": 14,
+        "SkillRaceClassInfo": 0
+      },
+      "appearance_textures": [],
+      "folder": "28-Drakkari-Troll",
+      "slot": 23
+    },
+    {
+      "name": "Fel Orc",
+      "source": 23,
+      "target": 12,
+      "faction": "Horde",
+      "token": "FEL_ORC",
+      "classes": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "male_display": 51,
+      "female_display": 52,
+      "esteria_token": "FELORC",
+      "rows": {
+        "CharSections": 794,
+        "CharHairGeosets": 25,
+        "CharacterFacialHairStyles": 18,
+        "CharStartOutfit": 12,
+        "SkillRaceClassInfo": 0
+      },
+      "appearance_textures": [],
+      "folder": "23-Fel-Orc",
+      "replaced_race": "Gangr'orc",
+      "slot": 18
+    },
+    {
+      "name": "Mag'har Orc",
+      "source": 49,
+      "target": 29,
+      "faction": "Horde",
+      "token": "MAGHAR_ORC",
+      "classes": [
+        1,
+        3,
+        4,
+        6,
+        7,
+        9
+      ],
+      "male_display": 51,
+      "female_display": 52,
+      "esteria_token": "MAGHAR",
+      "rows": {
+        "CharSections": 794,
+        "CharHairGeosets": 25,
+        "CharacterFacialHairStyles": 18,
+        "CharStartOutfit": 12
+      },
+      "appearance_textures": [],
+      "folder": "49-Mag-har-Orc",
+      "slot": 26
+    },
+    {
+      "name": "Kul Tiran",
+      "source": 16,
+      "target": 32,
+      "faction": "Alliance",
+      "token": "KUL_TIRAN",
+      "classes": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "male_display": 977368,
+      "female_display": 977369,
+      "esteria_token": "KULTIRAN",
+      "rows": {
+        "CharSections": 264,
+        "CharHairGeosets": 12,
+        "CharacterFacialHairStyles": 73,
+        "CharStartOutfit": 14,
+        "SkillRaceClassInfo": 0
+      },
+      "appearance_textures": [],
+      "folder": "16-Kul-Tiran",
+      "slot": 11
+    },
+    {
+      "name": "Dark Iron Dwarf",
+      "source": 48,
+      "target": 30,
+      "faction": "Alliance",
+      "token": "DARK_IRON_DWARF",
+      "classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "male_display": 977463,
+      "female_display": 977464,
+      "esteria_token": "DARKIRONDWARF",
+      "rows": {
+        "CharSections": 874,
+        "CharHairGeosets": 19,
+        "CharacterFacialHairStyles": 15,
+        "CharStartOutfit": 12
+      },
+      "appearance_textures": [],
+      "folder": "48-Dark-Iron-Dwarf",
+      "slot": 10
+    },
+    {
+      "name": "Highmountain Tauren",
+      "source": 66,
+      "target": 28,
+      "faction": "Horde",
+      "token": "HIGHMOUNTAIN_TAUREN",
+      "classes": [
+        1,
+        3,
+        6,
+        7,
+        11
+      ],
+      "male_display": 977483,
+      "female_display": 977484,
+      "esteria_token": "HIGHMOUNTAINTAUREN",
+      "rows": {
+        "CharSections": 1408,
+        "CharHairGeosets": 2,
+        "CharacterFacialHairStyles": 2,
+        "CharStartOutfit": 10
+      },
+      "appearance_textures": [],
+      "folder": "66-Highmountain-Tauren",
+      "slot": 25
+    },
+    {
+      "name": "Murloc",
+      "source": 30,
+      "target": 24,
+      "faction": "Alliance",
+      "token": "MURLOC",
+      "classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "male_display": 977435,
+      "female_display": 977436,
+      "esteria_token": "TROGLODYTE",
+      "rows": {
+        "CharSections": 75,
+        "CharHairGeosets": 5,
+        "CharacterFacialHairStyles": 30,
+        "CharStartOutfit": 18,
+        "SkillRaceClassInfo": 0
+      },
+      "appearance_textures": [],
+      "folder": "30-Murloc",
+      "slot": 8
+    },
+    {
+      "name": "Ogre",
+      "source": 53,
+      "target": 27,
+      "faction": "Horde",
+      "token": "OGRE",
+      "classes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        11
+      ],
+      "male_display": 977468,
+      "female_display": 977467,
+      "esteria_token": "OGRE",
+      "rows": {
+        "CharSections": 52,
+        "CharHairGeosets": 2,
+        "CharacterFacialHairStyles": 2,
+        "CharStartOutfit": 18
+      },
+      "appearance_textures": [],
+      "folder": "53-Ogre",
+      "swap_model_sexes": true,
+      "slot": 24
+    }
+  ],
+  "relocated": []
+}

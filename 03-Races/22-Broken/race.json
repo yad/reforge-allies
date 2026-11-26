@@ -1,0 +1,80 @@
+{
+  "id": 22,
+  "name": "Broken",
+  "client_file": "Broken",
+  "faction": "Alliance",
+  "male_display": 977439,
+  "female_display": 977440,
+  "classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "char_sections": 831,
+  "dbc_rows": {
+    "ChrRaces": 1,
+    "CharBaseInfo": 30,
+    "CharStartOutfit": 22,
+    "CharSections": 831,
+    "CharacterFacialHairStyles": 15,
+    "CharHairGeosets": 30,
+    "CreatureDisplayInfo": 2,
+    "CreatureModelData": 2
+  },
+  "display_ids": [
+    977439,
+    977440
+  ],
+  "extra_display_ids": [],
+  "model_ids": [
+    901259,
+    901260
+  ],
+  "models": [
+    "CHARACTER/Broken/Female",
+    "CHARACTER/Broken/Male"
+  ],
+  "files_copied": 1100,
+  "files_missing": [],
+  "appearance_textures": [],
+  "skin_geoset_fixes": [],
+  "placeholder_textures_cleared": 0,
+  "portraits": {
+    "male": {
+      "path": "Portraits/male.png",
+      "source": "Charactercreate-races_broken-male.png"
+    },
+    "female": {
+      "path": "Portraits/female.png",
+      "source": "Charactercreate-races_broken-female.png"
+    }
+  },
+  "portraits_missing": []
+}

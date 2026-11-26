@@ -1,0 +1,94 @@
+# Fichiers à ignorer par Git
+/__pycache__/
+
+# workdirs
+/01-CoA-Patchs/*
+
+/01-CoA/*
+!/01-CoA/DBFilesClient/
+/01-CoA/DBFilesClient/*
+!/01-CoA/DBFilesClient/ChrRaces.dbc
+!/01-CoA/DBFilesClient/CharBaseInfo.dbc
+!/01-CoA/DBFilesClient/CharStartOutfit.dbc
+!/01-CoA/DBFilesClient/SkillLineAbility.dbc
+!/01-CoA/DBFilesClient/SkillRaceClassInfo.dbc
+!/01-CoA/DBFilesClient/CreatureModelData.dbc
+!/01-CoA/DBFilesClient/CreatureDisplayInfo.dbc
+!/01-CoA/DBFilesClient/CreatureDisplayInfoExtra.dbc
+!/01-CoA/DBFilesClient/CharSections.dbc
+!/01-CoA/DBFilesClient/CharacterFacialHairStyles.dbc
+!/01-CoA/DBFilesClient/CharHairGeosets.dbc
+
+
+/01-HD-patchs/*
+
+/01-HD/*
+!/01-HD/DBFilesClient/
+/01-HD/DBFilesClient/*
+!/01-HD/DBFilesClient/ChrRaces.dbc
+!/01-HD/DBFilesClient/CharBaseInfo.dbc
+!/01-HD/DBFilesClient/CharStartOutfit.dbc
+!/01-HD/DBFilesClient/SkillLineAbility.dbc
+!/01-HD/DBFilesClient/SkillRaceClassInfo.dbc
+!/01-HD/DBFilesClient/CreatureModelData.dbc
+!/01-HD/DBFilesClient/CreatureDisplayInfo.dbc
+!/01-HD/DBFilesClient/CreatureDisplayInfoExtra.dbc
+!/01-HD/DBFilesClient/CharSections.dbc
+!/01-HD/DBFilesClient/CharacterFacialHairStyles.dbc
+!/01-HD/DBFilesClient/CharHairGeosets.dbc
+
+/04-Merge/*
+!/04-Merge/*.md
+!/04-Merge/*.json
+
+!/04-Merge/patch-Z.mpq/
+/04-Merge/patch-Z.mpq/*
+!/04-Merge/patch-Z.mpq/DBFilesClient/
+/04-Merge/patch-Z.mpq/DBFilesClient/*
+
+!/04-Merge/patch-Z.mpq/DBFilesClient/ChrRaces.dbc
+!/04-Merge/patch-Z.mpq/DBFilesClient/CharBaseInfo.dbc
+!/04-Merge/patch-Z.mpq/DBFilesClient/CharStartOutfit.dbc
+!/04-Merge/patch-Z.mpq/DBFilesClient/SkillLineAbility.dbc
+!/04-Merge/patch-Z.mpq/DBFilesClient/SkillRaceClassInfo.dbc
+!/04-Merge/patch-Z.mpq/DBFilesClient/CreatureModelData.dbc
+!/04-Merge/patch-Z.mpq/DBFilesClient/CreatureDisplayInfo.dbc
+!/04-Merge/patch-Z.mpq/DBFilesClient/CreatureDisplayInfoExtra.dbc
+!/04-Merge/patch-Z.mpq/DBFilesClient/CharSections.dbc
+!/04-Merge/patch-Z.mpq/DBFilesClient/CharacterFacialHairStyles.dbc
+!/04-Merge/patch-Z.mpq/DBFilesClient/CharHairGeosets.dbc
+
+# 03-Races : ignorer tout sauf les races sélectionnées
+/03-Races/*
+
+# Add
+!/03-Races/09-Goblin/
+!/03-Races/13-Worgen/
+
+!/03-Races/14-High-Elf/
+!/03-Races/22-Broken/
+
+!/03-Races/20-Pandaren/
+!/03-Races/53-Ogre/
+
+!/03-Races/21-Naga/
+!/03-Races/30-Murloc/
+
+# Humans alternatives
+!/03-Races/16-Kul-Tiran/
+
+# Orcs alternatives
+!/03-Races/23-Fel-Orc/
+!/03-Races/49-Mag-har-Orc/
+
+# Trolls alternatives
+!/03-Races/12-Zandalari-Troll/
+!/03-Races/24-Forest-Troll/
+!/03-Races/25-Ice-Troll/
+!/03-Races/28-Drakkari-Troll/
+
+# Dwarf salternatives
+!/03-Races/48-Dark-Iron-Dwarf/
+
+# Taurens alternatives
+!/03-Races/66-Highmountain-Tauren/

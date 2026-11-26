@@ -1,0 +1,80 @@
+{
+  "id": 53,
+  "name": "Ogre",
+  "client_file": "Ogre",
+  "faction": "Horde",
+  "male_display": 977467,
+  "female_display": 977468,
+  "classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "char_sections": 52,
+  "dbc_rows": {
+    "ChrRaces": 1,
+    "CharBaseInfo": 30,
+    "CharStartOutfit": 72,
+    "CharSections": 52,
+    "CharacterFacialHairStyles": 2,
+    "CharHairGeosets": 2,
+    "CreatureDisplayInfo": 2,
+    "CreatureModelData": 2
+  },
+  "display_ids": [
+    977467,
+    977468
+  ],
+  "extra_display_ids": [],
+  "model_ids": [
+    901286,
+    901287
+  ],
+  "models": [
+    "Character/Ogre/Female",
+    "Character/Ogre/Male"
+  ],
+  "files_copied": 608,
+  "files_missing": [],
+  "appearance_textures": [],
+  "skin_geoset_fixes": [],
+  "placeholder_textures_cleared": 0,
+  "portraits": {
+    "male": {
+      "path": "Portraits/male.png",
+      "source": "Charactercreate-races_ogre-male_horde.png"
+    },
+    "female": {
+      "path": "Portraits/female.png",
+      "source": "Charactercreate-races_ogre-female_horde.png"
+    }
+  },
+  "portraits_missing": []
+}

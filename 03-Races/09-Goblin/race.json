@@ -1,0 +1,90 @@
+{
+  "id": 9,
+  "name": "Goblin",
+  "client_file": "Goblin",
+  "faction": "Horde",
+  "male_display": 977364,
+  "female_display": 977365,
+  "classes": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "char_sections": 1176,
+  "dbc_rows": {
+    "ChrRaces": 1,
+    "CharBaseInfo": 30,
+    "CharStartOutfit": 22,
+    "SkillLineAbility": 2,
+    "SkillRaceClassInfo": 10,
+    "CharSections": 1176,
+    "CharacterFacialHairStyles": 50,
+    "CharHairGeosets": 37,
+    "CreatureDisplayInfo": 2,
+    "CreatureModelData": 2
+  },
+  "display_ids": [
+    977364,
+    977365
+  ],
+  "extra_display_ids": [],
+  "model_ids": [
+    901225,
+    901226
+  ],
+  "models": [
+    "Character/Goblin/Female",
+    "Character/Goblin/Male"
+  ],
+  "files_copied": 968,
+  "files_missing": [
+    "Character/Goblin/Male/GoblinMaleNakedPelvisSkin00_100.blp",
+    "Character/Goblin/Male/GoblinMaleNakedPelvisSkin00_101.blp",
+    "Character/Goblin/Male/GoblinMaleNakedPelvisSkin00_102.blp",
+    "Character/Goblin/Male/GoblinMaleNakedPelvisSkin00_103.blp",
+    "Character/Goblin/Male/GoblinMaleNakedPelvisSkin00_104.blp",
+    "Character/Goblin/Male/GoblinMaleNakedPelvisSkin00_105.blp",
+    "Character/Goblin/Male/GoblinMaleNakedPelvisSkin00_106.blp"
+  ],
+  "appearance_textures": [],
+  "skin_geoset_fixes": [],
+  "placeholder_textures_cleared": 0,
+  "portraits": {
+    "male": {
+      "path": "Portraits/male.png",
+      "source": "Charactercreate-races_goblin-male.png"
+    },
+    "female": {
+      "path": "Portraits/female.png",
+      "source": "Charactercreate-races_goblin-female.png"
+    }
+  },
+  "portraits_missing": []
+}
